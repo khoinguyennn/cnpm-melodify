@@ -1,0 +1,330 @@
+.hover-bg:hover {
+  background-color: #2f284b;
+}
+
+.song-card:hover .song-overlay {
+  opacity: 1 !important;
+}
+
+.song-card:hover .song-overlay button {
+  transform: scale(1) !important;
+  transition: transform 0.2s;
+}
+
+.artist-card {
+  transition: transform 0.2s;
+}
+
+.artist-card:hover {
+  transform: scale(1.05);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #241b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f284b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8d2fbd;
+}
+
+/* Input placeholder color */
+input::placeholder {
+  color: #6c757d !important;
+}
+
+/* Smooth transitions */
+.song-overlay,
+.song-overlay button {
+  transition: all 0.2s;
+}
+
+.text-secondary-light {
+  color: #b3a8d1 !important;
+}
+
+/* Add these new animation styles */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-title {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: -1px;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 0;
+  max-width: 100%;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  animation: fadeInUp 0.8s ease-out 4s forwards;
+  opacity: 0;
+}
+
+.hero-image {
+  animation: fadeIn 1s ease-out;
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Hover effect for suggestion items */
+.hover-bg {
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+/* Ensure text truncation works properly */
+.min-width-0 {
+  min-width: 0;
+}
+
+/* Hover effect for suggestion items */
+.hover-bg {
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.hover-bg:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hover-bg:hover .hover-icons {
+  display: flex !important;
+}
+
+.hover-icons button {
+  transition: color 0.2s ease;
+}
+
+.hover-icons button:hover {
+  color: #8d2fbd !important;
+}
+
+/* Update hover styles for suggestion items */
+.suggestion-item {
+  position: relative;
+  padding-right: 100px; /* Make space for the icons */
+}
+
+.suggestion-item .action-icons {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  gap: 8px;
+}
+
+.suggestion-item:hover .action-icons {
+  display: flex;
+}
+
+.action-icons button {
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(141, 47, 189, 0.2);
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.action-icons button:hover {
+  background: rgba(141, 47, 189, 0.4);
+  transform: scale(1.1);
+}
+
+/* New styles for play icon overlay */
+.play-icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.suggestion-item:hover .play-icon-overlay {
+  opacity: 1;
+}
+
+.play-icon-overlay svg {
+  color: white;
+}
+
+/* Enhanced Hero Section Styles */
+.hero-section {
+  height: 500px;
+  overflow: hidden;
+}
+
+.hero-gradient-overlay {
+  background: linear-gradient(to top, rgba(24, 18, 43, 1) 0%, rgba(24, 18, 43, 0.7) 50%, rgba(24, 18, 43, 0.3) 100%);
+}
+
+.hero-content {
+  z-index: 10;
+}
+
+.hero-cta {
+  background-color: #8d2fbd;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out 4.5s forwards;
+  opacity: 0;
+}
+
+.hero-nav-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.hero-nav-btn:hover {
+  background-color: rgba(141, 47, 189, 0.7);
+}
+
+
+.active-link {
+  background-color: rgba(141, 47, 189, 0.2) !important;
+}
+
+.hover-bg:hover {
+  background-color: rgba(141, 47, 189, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+
+.playing-animation {
+  display: flex;
+  align-items: flex-end;
+  height: 30px;
+  gap: 2px;
+}
+
+.playing-animation span {
+  width: 3px;
+  height: 100%;
+  background-color: #8D2FBD;
+  border-radius: 3px;
+}
+
+.playing-animation.active span {
+  animation: bounce 1.2s ease-in-out infinite;
+}
+
+.playing-animation.paused span {
+  animation: none;
+  height: 8px; /* Chiều cao cố định khi dừng */
+}
+
+.playing-animation.active span:nth-child(1) { animation-delay: 0s; }
+.playing-animation.active span:nth-child(2) { animation-delay: 0.2s; }
+.playing-animation.active span:nth-child(3) { animation-delay: 0.4s; }
+.playing-animation.active span:nth-child(4) { animation-delay: 0.6s; }
+.playing-animation.active span:nth-child(5) { animation-delay: 0.8s; }
+
+@keyframes bounce {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 30px;
+  }
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #8d2fbd;
+  }
+}
+
+@keyframes remove-caret {
+  to {
+    border-color: transparent;
+  }
+}
+
+.hero-title-typed {
+  animation: remove-caret 0.1s linear 4s forwards;
+  border-right: 3px solid #8d2fbd;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -1,0 +1,6 @@
+@MelodifyAPI_HostAddress = http://localhost:5059
+
+GET {{MelodifyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
