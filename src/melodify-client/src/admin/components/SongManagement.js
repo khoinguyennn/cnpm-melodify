@@ -24,12 +24,25 @@ const SongManagement = () => {
 
   const fetchSongs = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}`)
-      const data = await response.json()
-      setSongs(data)
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${API_BASE_URL}`, {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      
+      if (response.status === 401) {
+        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
+        localStorage.removeItem('token');
+        window.location.href = '/login';
+        return;
+      }
+
+      const data = await response.json();
+      setSongs(data);
     } catch (error) {
-      console.error("Error fetching songs:", error)
-      addToast("Lỗi khi tải danh sách bài hát!", "error")
+      console.error("Error fetching songs:", error);
+      addToast("Lỗi khi tải danh sách bài hát!", "error");
     }
   }
 
@@ -79,23 +92,33 @@ const SongManagement = () => {
   
     if (confirmDelete) {
       try {
-        console.log("Đang xóa bài hát ID:", id);
-  
+        const token = localStorage.getItem('token');
         const response = await fetch(`${API_BASE_URL}/${id}`, {
           method: "DELETE",
           headers: {
-            'Accept': 'application/json'
+            'Accept': 'application/json',
+            'Authorization': `Bearer ${token}`
           }
         });
   
+        if (response.status === 401) {
+          addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
+          localStorage.removeItem('token');
+          window.location.href = '/login';
+          return;
+        }
+  
+        if (response.status === 403) {
+          addToast("Bạn không có quyền thực hiện thao tác này!", "error");
+          return;
+        }
+  
         const data = await response.json();
-        console.log("Response data:", data);
   
         if (!response.ok) {
           throw new Error(data.message || data.error || 'Không thể xóa bài hát');
         }
   
-        // Xóa thành công
         setSongs(prevSongs => prevSongs.filter(song => song.songID !== id));
         addToast(data.message || "Xóa bài hát thành công!", "success");
   
@@ -110,6 +133,12 @@ const SongManagement = () => {
     event.preventDefault();
     
     try {
+      const token = localStorage.getItem('token');
+      if (!token) {
+        addToast("Vui lòng đăng nhập!", "error");
+        return;
+      }
+
       const formData = new FormData();
       
       // Lấy dữ liệu từ form
@@ -126,19 +155,13 @@ const SongManagement = () => {
       let url, method;
   
       if (currentSong) {
-        // Đang trong chế độ cập nhật
         url = `${API_BASE_URL}/${currentSong.songID}`;
         method = 'PUT';
-        
-        // Chỉ thêm file vào formData nếu người dùng chọn file mới
         if (audioFile) formData.append('audioFile', audioFile);
         if (imageFile) formData.append('imageFile', imageFile);
       } else {
-        // Đang trong chế độ thêm mới
         url = `${API_BASE_URL}/add`;
         method = 'POST';
-        
-        // Kiểm tra files bắt buộc khi thêm mới
         if (!audioFile || !imageFile) {
           addToast("Vui lòng chọn đầy đủ file audio và ảnh!", "error");
           return;
@@ -147,11 +170,26 @@ const SongManagement = () => {
         formData.append('imageFile', imageFile);
       }
   
-      // Gọi API
+      // Thêm Authorization header với token
       const response = await fetch(url, {
         method: method,
+        headers: {
+          'Authorization': `Bearer ${token}`
+        },
         body: formData
       });
+  
+      if (response.status === 401) {
+        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
+        localStorage.removeItem('token');
+        window.location.href = '/login';
+        return;
+      }
+  
+      if (response.status === 403) {
+        addToast("Bạn không có quyền thực hiện thao tác này!", "error");
+        return;
+      }
   
       if (!response.ok) {
         const errorData = await response.json();
@@ -160,13 +198,11 @@ const SongManagement = () => {
   
       const result = await response.json();
       
-      // Cập nhật UI
       fetchSongs(); // Refresh danh sách
       setIsModalOpen(false);
       setCurrentSong(null);
       addToast(result.message || `${currentSong ? 'Cập nhật' : 'Thêm'} bài hát thành công!`, "success");
       
-      // Reset previews
       setAudioPreview(null);
       setImagePreview(null);
   

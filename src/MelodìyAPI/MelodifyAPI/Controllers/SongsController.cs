@@ -75,7 +75,6 @@ namespace MelodifyAPI.Controllers
         // 3. Thêm bài hát (Chỉ Admin)
         [Authorize(Roles = "Admin")]
         [HttpPost("add")]
-        [AllowAnonymous] // Tạm thời cho phép truy cập không cần xác thực
         [Consumes("multipart/form-data")] // Quan trọng: Xác định kiểu dữ liệu gửi lên
         public async Task<IActionResult> AddSong(
             [FromForm] string title,
@@ -182,7 +181,7 @@ namespace MelodifyAPI.Controllers
 
         // 4. Sửa bài hát (Chỉ Admin)
         [HttpPut("{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> UpdateSong(
      int id,
@@ -287,7 +286,8 @@ namespace MelodifyAPI.Controllers
 
         // 5. Xóa bài hát (Chỉ Admin)
         [HttpDelete("{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> DeleteSong(int id)
         {
             using var transaction = _context.Database.BeginTransaction();

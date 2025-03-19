@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Qvfv8pr3QtRAP+KPCXSQ+8M5Y28uSyN3FchSIe/030=",
+  "Hash": "5c2R97CDU68UwgCx33y6ajtSENgu5cdRXANSluokVUg=",
   "Source": "MelodifyAPI",
   "BasePath": "_content/MelodifyAPI",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\data\\artists\\c9050500-2b2d-4989-96d7-73cdee6eb10c.jpg"
     },
     {
+      "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\e4bdd052-d8bb-459b-94a5-f9e4fa960449.JPG",
+      "SourceId": "MelodifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\",
+      "BasePath": "_content/MelodifyAPI",
+      "RelativePath": "data/artists/e4bdd052-d8bb-459b-94a5-f9e4fa960449.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\artists\\e4bdd052-d8bb-459b-94a5-f9e4fa960449.JPG"
+    },
+    {
       "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\02314dd1-3d45-43eb-b774-08aa17170817.mp3",
       "SourceId": "MelodifyAPI",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\audio\\02314dd1-3d45-43eb-b774-08aa17170817.mp3"
+    },
+    {
+      "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\65fac12c-6766-4492-9e99-089285fe0441.mp3",
+      "SourceId": "MelodifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\",
+      "BasePath": "_content/MelodifyAPI",
+      "RelativePath": "data/audio/65fac12c-6766-4492-9e99-089285fe0441.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\audio\\65fac12c-6766-4492-9e99-089285fe0441.mp3"
     },
     {
       "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\f60d6385-cc7c-4ded-9468-81d78cd9a3fb.mp3",
@@ -167,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\img\\c8dc6d92-1465-4d9e-a825-8b8fe737e245.jfif"
+    },
+    {
+      "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\img\\d1d21052-2c19-43a1-b430-3823f83ddd49.JPG",
+      "SourceId": "MelodifyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\",
+      "BasePath": "_content/MelodifyAPI",
+      "RelativePath": "data/img/d1d21052-2c19-43a1-b430-3823f83ddd49.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\img\\d1d21052-2c19-43a1-b430-3823f83ddd49.JPG"
     },
     {
       "Identity": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\wwwroot\\data\\users\\864a0d33-f9cb-4961-aecb-24eda1a99d97.png",

@@ -510,3 +510,4 @@ D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\refint\Melodify
 D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
 D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
 D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.sourcelink.json
