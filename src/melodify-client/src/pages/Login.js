@@ -5,11 +5,12 @@ import { useNavigate } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "react-router-dom"
 import "./Login.css"
-import InputField from "../components/InputField"
-import ButtonCustom from "../components/ButtonCustom"
-import AuthCard from "../components/AuthCard"
-import Toast from "../components/Toast"
+import InputField from "../components/common/Input/InputField"
+import ButtonCustom from "../components/common/Button/ButtonCustom"
+import AuthCard from "../components/ui/AuthCard/AuthCard"
+import Toast from "../components/common/Toast/Toast"
 import { useAuth } from '../contexts/AuthContext'
+import { authApi } from '../services/authApi'
 
 const inputStyle = {
   backgroundColor: "#2F284B",
@@ -31,12 +32,11 @@ const Login = () => {
   const [password, setPassword] = useState("")
   const [isLoading, setIsLoading] = useState(false)
   const { setUser } = useAuth()
+  const [toasts, setToasts] = useState([])
 
   useEffect(() => {
     document.title = "Đăng nhập - Melodify"
   }, [])
-
-  const [toasts, setToasts] = useState([])
 
   const addToast = (message, type) => {
     const newToast = {
@@ -62,40 +62,16 @@ const Login = () => {
     try {
       setIsLoading(true)
 
-      const response = await fetch("https://localhost:7153/api/Auth/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email,
-          password,
-        }),
-      })
+      const data = await authApi.login(email, password);
+      localStorage.setItem("token", data.token);
 
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.message || "Có lỗi xảy ra khi đăng nhập!")
-      }
-
-      localStorage.setItem("token", data.token)
-
-      const tokenParts = data.token.split('.')
-      const payload = JSON.parse(atob(tokenParts[1]))
+      const tokenParts = data.token.split('.');
+      const payload = JSON.parse(atob(tokenParts[1]));
       
-      const userResponse = await fetch(`https://localhost:7153/api/User/${payload.unique_name}`, {
-        headers: {
-          'Authorization': `Bearer ${data.token}`
-        }
-      })
-      
-      if (userResponse.ok) {
-        const userData = await userResponse.json()
-        setUser(userData)
-      }
+      const userData = await authApi.getUserInfo(payload.unique_name, data.token);
+      setUser(userData);
 
-      addToast(data.message || "Đăng nhập thành công!", "success")
+      addToast(data.message || "Đăng nhập thành công!", "success");
 
       setTimeout(() => {
         navigate("/")

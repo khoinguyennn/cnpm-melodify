@@ -10,6 +10,7 @@
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "animate.css": "^4.1.1",
+    "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
     "lucide-react": "^0.476.0",
     "react": "^19.0.0",

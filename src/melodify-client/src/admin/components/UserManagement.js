@@ -4,9 +4,8 @@ import { useState, useEffect } from "react"
 import DataTable from "./DataTable"
 import { Plus, Edit, Trash, X, Key } from "lucide-react"
 import "../styles/Modal.css"
-import Toast from "../../components/Toast"
-
-const API_BASE_URL = "https://localhost:7153/api/User"
+import Toast from "../../components/common/Toast/Toast"
+import { userApi } from '../../services/userApi'
 
 const UserManagement = () => {
   const [users, setUsers] = useState([])
@@ -22,36 +21,7 @@ const UserManagement = () => {
 
   const fetchUsers = async () => {
     try {
-      const token = localStorage.getItem('token');
-      if (!token) {
-        addToast("Vui lòng đăng nhập!", "error");
-        return;
-      }
-
-      const response = await fetch("https://localhost:7153/api/User", {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/json'
-        }
-      });
-
-      if (response.status === 401) {
-        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-        localStorage.removeItem('token');
-        window.location.href = '/login';
-        return;
-      }
-
-      if (response.status === 403) {
-        addToast("Bạn không có quyền truy cập chức năng này!", "error");
-        return;
-      }
-
-      if (!response.ok) {
-        throw new Error("Không thể lấy danh sách người dùng");
-      }
-
-      const data = await response.json();
+      const data = await userApi.getAll();
       setUsers(data);
     } catch (error) {
       console.error("Error fetching users:", error);
@@ -91,49 +61,9 @@ const UserManagement = () => {
 
     if (confirmDelete) {
       try {
-        const token = localStorage.getItem('token');
-        if (!token) {
-          addToast("Vui lòng đăng nhập!", "error");
-          return;
-        }
-
-        const response = await fetch(`https://localhost:7153/api/User/${id}`, {
-          method: "DELETE",
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/json'
-          }
-        });
-
-        if (response.status === 401) {
-          addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-          localStorage.removeItem('token');
-          window.location.href = '/login';
-          return;
-        }
-
-        if (response.status === 403) {
-          addToast("Bạn không có quyền thực hiện thao tác này!", "error");
-          return;
-        }
-
-        const responseText = await response.text();
-        let data;
-        if (responseText) {
-          try {
-            data = JSON.parse(responseText);
-          } catch (e) {
-            data = { message: responseText };
-          }
-        }
-
-        if (!response.ok) {
-          throw new Error(data?.message || "Không thể xóa người dùng");
-        }
-
+        const data = await userApi.delete(id);
         setUsers(prevUsers => prevUsers.filter(user => user.userID !== id));
-        addToast(data?.message || "Xóa người dùng thành công!", "success");
-
+        addToast(data.message || "Xóa người dùng thành công!", "success");
       } catch (error) {
         console.error("Error:", error);
         addToast(error.message || "Có lỗi xảy ra khi xóa người dùng!", "error");
@@ -145,70 +75,32 @@ const UserManagement = () => {
     event.preventDefault();
     
     try {
-      const token = localStorage.getItem('token');
-      if (!token) {
-        addToast("Vui lòng đăng nhập!", "error");
-        return;
-      }
-
-      const formData = new FormData();
-      formData.append('displayName', event.target.displayName.value);
-      formData.append('role', event.target.role.value);
+      const formData = new FormData(event.target);
       
-      // Thêm file ảnh nếu có
-      const imageFile = event.target.imageFile.files[0];
-      if (imageFile) {
-        formData.append('imageFile', imageFile);
-      }
-
-      const response = await fetch(`https://localhost:7153/api/User/change/${currentUser.userID}`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${token}`
-          // Không cần set Content-Type khi dùng FormData
-        },
-        body: formData
-      });
-
-      if (response.status === 401) {
-        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-        localStorage.removeItem('token');
-        window.location.href = '/login';
-        return;
-      }
-
-      if (response.status === 403) {
-        addToast("Bạn không có quyền thực hiện thao tác này!", "error");
-        return;
-      }
-
-      const responseText = await response.text();
-      let data;
-      if (responseText) {
-        try {
-          data = JSON.parse(responseText);
-        } catch (e) {
-          data = { message: responseText };
-        }
-      }
-
-      if (!response.ok) {
-        throw new Error(data?.message || "Không thể cập nhật thông tin người dùng");
+      let result;
+      if (currentUser) {
+        result = await userApi.update(currentUser.userID, formData);
+      } else {
+        result = await userApi.register(formData);
       }
 
       // Cập nhật danh sách users
-      setUsers(prevUsers =>
-        prevUsers.map(user =>
-          user.userID === currentUser.userID ? data.user : user
-        )
-      );
+      if (currentUser) {
+        setUsers(prevUsers =>
+          prevUsers.map(user =>
+            user.userID === currentUser.userID ? result.user : user
+          )
+        );
+      } else {
+        setUsers(prevUsers => [...prevUsers, result]);
+      }
 
       setIsModalOpen(false);
-      addToast(data?.message || "Cập nhật thông tin thành công!", "success");
+      addToast(result.message || `${currentUser ? 'Cập nhật' : 'Thêm'} người dùng thành công!`, "success");
 
     } catch (error) {
       console.error("Error:", error);
-      addToast(error.message || "Có lỗi xảy ra khi cập nhật thông tin!", "error");
+      addToast(error.message || `Có lỗi xảy ra!`, "error");
     }
   };
 

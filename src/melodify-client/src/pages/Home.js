@@ -2,14 +2,15 @@
 import "./Home.css"
 import { useState, useEffect } from "react"
 import { Link, Navigate } from "react-router-dom"
-import Sidebar from "../components/Sidebar"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+import Sidebar from "../components/layout/Sidebar/Sidebar"
+import Navbar from "../components/layout/Navbar/Navbar"
+import Footer from "../components/layout/Footer/Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { PlaySquare, ChevronLeft, ChevronRight, RotateCw, Heart, Plus, Play } from "lucide-react"
 import { initWow } from "../utils/wowInit"
 import { useAuth } from '../contexts/AuthContext'
-import PlayingBar from "../components/PlayingBar"
+import PlayingBar from "../components/layout/PlayingBar/PlayingBar"
+import { songApi } from '../services/songApi'
 
 const SuggestionItem = ({ song }) => {
   return (
@@ -88,11 +89,7 @@ const Home = () => {
 
   const fetchSongs = async () => {
     try {
-      const response = await fetch('https://localhost:7153/api/Songs');
-      if (!response.ok) {
-        throw new Error('Failed to fetch songs');
-      }
-      const data = await response.json();
+      const data = await songApi.getAll();
       setNewSongs(data);
     } catch (error) {
       console.error('Error fetching songs:', error);
@@ -106,10 +103,7 @@ const Home = () => {
         return;
       }
 
-      const response = await fetch(`https://localhost:7153/api/Songs/${song.songID}/play`);
-      if (!response.ok) {
-        throw new Error('Failed to get song URL');
-      }
+      await songApi.play(song.songID);
       setCurrentSong(song);
       setIsPlaying(true);
     } catch (error) {

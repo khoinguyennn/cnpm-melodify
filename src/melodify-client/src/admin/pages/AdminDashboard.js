@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Routes, Route } from "react-router-dom"
 import Sidebar from "../components/Sidebar"
-import Navbar from "../../components/Navbar"
+import Navbar from "../../components/layout/Navbar/Navbar"
 import Overview from "../components/Overview"
 import SongManagement from "../components/SongManagement"
 import ArtistManagement from "../components/ArtistManagement"

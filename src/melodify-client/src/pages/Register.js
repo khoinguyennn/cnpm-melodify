@@ -2,10 +2,11 @@ import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from "react-router-dom"
-import InputField from "../components/InputField"
-import ButtonCustom from "../components/ButtonCustom"
-import AuthCard from "../components/AuthCard"
-import Toast from "../components/Toast"
+import InputField from "../components/common/Input/InputField"
+import ButtonCustom from "../components/common/Button/ButtonCustom"
+import AuthCard from "../components/ui/AuthCard/AuthCard"
+import Toast from "../components/common/Toast/Toast"
+import { authApi } from '../services/authApi'
 
 const placeholderStyle = `
   input::placeholder {
@@ -40,57 +41,44 @@ const Register = () => {
     setToasts(prev => prev.filter(toast => toast.id !== id))
   }
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-
-    // Kiểm tra form
+  const validateForm = () => {
     if (!displayName || !email || !password || !confirmPassword) {
       addToast("Vui lòng điền đầy đủ thông tin!", "error")
-      return
+      return false
     }
 
     if (password !== confirmPassword) {
       addToast("Mật khẩu xác nhận không khớp!", "error")
-      return
+      return false
     }
 
-    // Kiểm tra định dạng email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(email)) {
       addToast("Email không hợp lệ!", "error")
-      return
+      return false
     }
 
-    // Kiểm tra độ dài mật khẩu
     if (password.length < 6) {
       addToast("Mật khẩu phải có ít nhất 6 ký tự!", "error")
+      return false
+    }
+
+    return true
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    if (!validateForm()) {
       return
     }
 
     try {
       setIsLoading(true)
 
-      const response = await fetch("https://localhost:7153/api/Auth/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          displayName,
-          email,
-          password,
-        }),
-      })
+      const data = await authApi.register(displayName, email, password);
+      addToast(data.message || "Đăng ký thành công!", "success");
 
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.message || "Có lỗi xảy ra khi đăng ký!")
-      }
-
-      addToast(data.message || "Đăng ký thành công!", "success")
-
-      // Chuyển về trang đăng nhập sau 1.5 giây
       setTimeout(() => {
         navigate("/login")
       }, 1500)

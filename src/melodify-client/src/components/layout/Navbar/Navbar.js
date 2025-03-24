@@ -2,10 +2,11 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Menu, Search } from "lucide-react"
-import ProfileMenu from "./ProfileMenu"
-import { useAuth } from '../contexts/AuthContext'
+import ProfileMenu from "../../ui/ProfileMenu/ProfileMenu"
+import { useAuth } from '../../../contexts/AuthContext'
+import './Navbar.css'
 
-const Navbar = ({ toggleSidebar }) => {
+const Navbar = ({ toggleSidebar, isSidebarOpen }) => {
   const { user } = useAuth();
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false)
   const menuRef = useRef(null)
@@ -34,7 +35,7 @@ const Navbar = ({ toggleSidebar }) => {
   }, [])
 
   return (
-    <div className="sticky-top bg-dark p-3" style={{ backgroundColor: "#18122B" }}>
+    <div className={`navbar-container ${isSidebarOpen ? 'with-sidebar' : ''}`}>
       <div className="d-flex align-items-center gap-3">
         <button onClick={toggleSidebar} className="btn btn-link text-white p-1">
           <Menu size={24} />
@@ -49,8 +50,7 @@ const Navbar = ({ toggleSidebar }) => {
           <input
             type="text"
             placeholder="Search"
-            className="form-control rounded-pill ps-5"
-            style={{ backgroundColor: "#2F284B", border: "none", color: "white" }}
+            className="form-control rounded-pill ps-5 search-input"
           />
         </div>
 

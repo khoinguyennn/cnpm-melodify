@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { HomeIcon, Search, Users, PlaySquare, Heart, User, Moon, LogOut, Settings } from "lucide-react";
 import { useState } from "react";
-import Toast from "./Toast";
-import { useAuth } from '../contexts/AuthContext';
+import Toast from "../../common/Toast/Toast";
+import { useAuth } from '../../../contexts/AuthContext';
 
 const Sidebar = ({ isSidebarOpen }) => {
   const location = useLocation();

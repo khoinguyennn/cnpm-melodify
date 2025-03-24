@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
 import AdminDashboard from "./admin/pages/AdminDashboard";
+import UserProfile from "./pages/UserProfile";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -56,6 +57,15 @@ function App() {
             element={
               <ProtectedRoute>
                 <Home/>
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
+            path="/profile"
+            element={
+              <ProtectedRoute>
+                <UserProfile />
               </ProtectedRoute>
             }
           />

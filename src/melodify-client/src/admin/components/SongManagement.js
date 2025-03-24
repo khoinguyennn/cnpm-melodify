@@ -4,7 +4,9 @@ import { useState, useEffect } from "react"
 import DataTable from "./DataTable"
 import { Plus, Edit, Trash, X, Upload } from "lucide-react"
 import "../styles/Modal.css"
-import Toast from "../../components/Toast";
+import Toast from "../../components/common/Toast/Toast";
+import { songApi } from '../../services/songApi';
+import { artistApi } from '../../services/artistApi';
 
 const API_BASE_URL = "https://localhost:7153/api/Songs"
 
@@ -24,21 +26,7 @@ const SongManagement = () => {
 
   const fetchSongs = async () => {
     try {
-      const token = localStorage.getItem('token');
-      const response = await fetch(`${API_BASE_URL}`, {
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      });
-      
-      if (response.status === 401) {
-        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-        localStorage.removeItem('token');
-        window.location.href = '/login';
-        return;
-      }
-
-      const data = await response.json();
+      const data = await songApi.getAll();
       setSongs(data);
     } catch (error) {
       console.error("Error fetching songs:", error);
@@ -61,12 +49,11 @@ const SongManagement = () => {
 
   const fetchArtists = async () => {
     try {
-      const response = await fetch("https://localhost:7153/api/Artists")
-      const data = await response.json()
-      setArtists(data)
+      const data = await artistApi.getAll();
+      setArtists(data);
     } catch (error) {
-      console.error("Error fetching artists:", error)
-      addToast("Lỗi khi tải danh sách nghệ sĩ!", "error")
+      console.error("Error fetching artists:", error);
+      addToast("Lỗi khi tải danh sách nghệ sĩ!", "error");
     }
   }
 
@@ -92,39 +79,12 @@ const SongManagement = () => {
   
     if (confirmDelete) {
       try {
-        const token = localStorage.getItem('token');
-        const response = await fetch(`${API_BASE_URL}/${id}`, {
-          method: "DELETE",
-          headers: {
-            'Accept': 'application/json',
-            'Authorization': `Bearer ${token}`
-          }
-        });
-  
-        if (response.status === 401) {
-          addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-          localStorage.removeItem('token');
-          window.location.href = '/login';
-          return;
-        }
-  
-        if (response.status === 403) {
-          addToast("Bạn không có quyền thực hiện thao tác này!", "error");
-          return;
-        }
-  
-        const data = await response.json();
-  
-        if (!response.ok) {
-          throw new Error(data.message || data.error || 'Không thể xóa bài hát');
-        }
-  
+        const data = await songApi.delete(id);
         setSongs(prevSongs => prevSongs.filter(song => song.songID !== id));
         addToast(data.message || "Xóa bài hát thành công!", "success");
-  
       } catch (error) {
         console.error("Chi tiết lỗi:", error);
-        addToast(error.message, "error");
+        addToast(error.response?.data?.message || "Có lỗi xảy ra khi xóa bài hát!", "error");
       }
     }
   };
@@ -133,82 +93,35 @@ const SongManagement = () => {
     event.preventDefault();
     
     try {
-      const token = localStorage.getItem('token');
-      if (!token) {
-        addToast("Vui lòng đăng nhập!", "error");
-        return;
-      }
-
-      const formData = new FormData();
+      const formData = new FormData(event.target);
       
-      // Lấy dữ liệu từ form
-      formData.append('title', event.target.title.value);
-      formData.append('artistId', event.target.artistId.value);
-      formData.append('album', event.target.album.value || '');
-      formData.append('genre', event.target.genre.value);
-      formData.append('releaseDate', event.target.releaseDate.value);
-      
-      // Lấy files
-      const audioFile = event.target.audioFile.files[0];
-      const imageFile = event.target.imageFile.files[0];
-  
-      let url, method;
-  
-      if (currentSong) {
-        url = `${API_BASE_URL}/${currentSong.songID}`;
-        method = 'PUT';
-        if (audioFile) formData.append('audioFile', audioFile);
-        if (imageFile) formData.append('imageFile', imageFile);
-      } else {
-        url = `${API_BASE_URL}/add`;
-        method = 'POST';
+      // Validate files for new song
+      if (!currentSong) {
+        const audioFile = event.target.audioFile.files[0];
+        const imageFile = event.target.imageFile.files[0];
         if (!audioFile || !imageFile) {
           addToast("Vui lòng chọn đầy đủ file audio và ảnh!", "error");
           return;
         }
-        formData.append('audioFile', audioFile);
-        formData.append('imageFile', imageFile);
       }
-  
-      // Thêm Authorization header với token
-      const response = await fetch(url, {
-        method: method,
-        headers: {
-          'Authorization': `Bearer ${token}`
-        },
-        body: formData
-      });
-  
-      if (response.status === 401) {
-        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error");
-        localStorage.removeItem('token');
-        window.location.href = '/login';
-        return;
+
+      let result;
+      if (currentSong) {
+        result = await songApi.update(currentSong.songID, formData);
+      } else {
+        result = await songApi.add(formData);
       }
-  
-      if (response.status === 403) {
-        addToast("Bạn không có quyền thực hiện thao tác này!", "error");
-        return;
-      }
-  
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || `Lỗi khi ${currentSong ? 'cập nhật' : 'thêm'} bài hát`);
-      }
-  
-      const result = await response.json();
       
-      fetchSongs(); // Refresh danh sách
+      fetchSongs();
       setIsModalOpen(false);
       setCurrentSong(null);
       addToast(result.message || `${currentSong ? 'Cập nhật' : 'Thêm'} bài hát thành công!`, "success");
       
       setAudioPreview(null);
       setImagePreview(null);
-  
     } catch (error) {
       console.error("Error:", error);
-      addToast(error.message || `Có lỗi xảy ra khi ${currentSong ? 'cập nhật' : 'thêm'} bài hát!`, "error");
+      addToast(error.response?.data?.message || `Có lỗi xảy ra!`, "error");
     }
   };
 

@@ -4,9 +4,8 @@ import { useState, useEffect } from "react"
 import DataTable from "./DataTable"
 import { Plus, Edit, Trash, X } from "lucide-react"
 import "../styles/Modal.css"
-import Toast from "../../components/Toast"
-
-const API_BASE_URL = "https://localhost:7153/api/Artists"
+import Toast from "../../components/common/Toast/Toast"
+import { artistApi } from '../../services/artistApi'
 
 const truncateText = (text, maxLength = 50) => {
   if (!text) return '';
@@ -27,12 +26,11 @@ const ArtistManagement = () => {
 
   const fetchArtists = async () => {
     try {
-      const response = await fetch(API_BASE_URL)
-      const data = await response.json()
-      setArtists(data)
+      const data = await artistApi.getAll();
+      setArtists(data);
     } catch (error) {
-      console.error("Error fetching artists:", error)
-      addToast("Lỗi khi tải danh sách nghệ sĩ!", "error")
+      console.error("Error fetching artists:", error);
+      addToast("Lỗi khi tải danh sách nghệ sĩ!", "error");
     }
   }
 
@@ -66,47 +64,12 @@ const ArtistManagement = () => {
 
     if (confirmDelete) {
       try {
-        const token = localStorage.getItem('token');
-        if (!token) {
-          addToast("Vui lòng đăng nhập!", "error");
-          return;
-        }
-
-        const response = await fetch(`${API_BASE_URL}/${id}`, {
-          method: "DELETE",
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/json'  // Thêm header này để yêu cầu response dạng JSON
-          }
-        });
-
-        // Đọc response text trước
-        const responseText = await response.text();
-        
-        // Parse JSON nếu có nội dung
-        let data;
-        if (responseText) {
-          try {
-            data = JSON.parse(responseText);
-          } catch (e) {
-            // Nếu không parse được JSON, sử dụng text như message
-            data = { message: responseText };
-          }
-        }
-
-        if (!response.ok) {
-          throw new Error(data?.message || 'Không thể xóa nghệ sĩ');
-        }
-
-        // Xóa nghệ sĩ khỏi state
+        const data = await artistApi.delete(id);
         setArtists(prevArtists => prevArtists.filter(artist => artist.artistID !== id));
-        
-        // Hiển thị message thành công
-        addToast(data?.message || "Xóa nghệ sĩ thành công!", "success");
-
+        addToast(data.message || "Xóa nghệ sĩ thành công!", "success");
       } catch (error) {
         console.error("Chi tiết lỗi:", error);
-        addToast(error.message, "error");
+        addToast(error.message || "Có lỗi xảy ra khi xóa nghệ sĩ!", "error");
       }
     }
   }
@@ -115,12 +78,6 @@ const ArtistManagement = () => {
     event.preventDefault()
     
     try {
-      const token = localStorage.getItem('token')
-      if (!token) {
-        addToast("Vui lòng đăng nhập!", "error")
-        return
-      }
-
       const formData = new FormData()
       
       // Lấy dữ liệu từ form
@@ -130,54 +87,27 @@ const ArtistManagement = () => {
       // Lấy file ảnh
       const imageFile = event.target.imageFile.files[0]
 
-      let url, method
+      if (!currentArtist && !imageFile) {
+        addToast("Vui lòng chọn ảnh cho nghệ sĩ!", "error")
+        return
+      }
 
-      if (currentArtist) {
-        url = `${API_BASE_URL}/${currentArtist.artistID}`
-        method = 'PUT'
-        
-        if (imageFile) formData.append('imageFile', imageFile)
-      } else {
-        url = `${API_BASE_URL}/add`
-        method = 'POST'
-        
-        if (!imageFile) {
-          addToast("Vui lòng chọn ảnh cho nghệ sĩ!", "error")
-          return
-        }
+      if (imageFile) {
         formData.append('imageFile', imageFile)
       }
 
-      const response = await fetch(url, {
-        method: method,
-        headers: {
-          'Authorization': `Bearer ${token}`
-        },
-        body: formData
-      })
-
-      if (response.status === 401) {
-        addToast("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại!", "error")
-        localStorage.removeItem('token')
-        window.location.href = '/login'
-        return
-      }
-
-      if (response.status === 403) {
-        addToast("Bạn không có quyền thực hiện thao tác này!", "error")
-        return
-      }
-
-      if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.message || `Lỗi khi ${currentArtist ? 'cập nhật' : 'thêm'} nghệ sĩ`)
+      let result;
+      if (currentArtist) {
+        result = await artistApi.update(currentArtist.artistID, formData);
+      } else {
+        result = await artistApi.add(formData);
       }
 
       fetchArtists()
       setIsModalOpen(false)
       setCurrentArtist(null)
       setImagePreview(null)
-      addToast(`${currentArtist ? 'Cập nhật' : 'Thêm'} nghệ sĩ thành công!`, "success")
+      addToast(result.message || `${currentArtist ? 'Cập nhật' : 'Thêm'} nghệ sĩ thành công!`, "success")
 
     } catch (error) {
       console.error("Error:", error)
