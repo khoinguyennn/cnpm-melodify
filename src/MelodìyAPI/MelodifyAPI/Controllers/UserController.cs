@@ -23,7 +23,7 @@ namespace MelodifyAPI.Controllers
 
         // 1. Lấy danh sách tất cả người dùng (Chỉ Admin)
         [HttpGet]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetAllUsers()
         {
             var users = await _context.Users
@@ -75,7 +75,7 @@ namespace MelodifyAPI.Controllers
 
         // 3. Cập nhật thông tin người dùng (Chỉ người dùng đó hoặc Admin)
         [HttpPut("{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDTO updatedUserDto)
         {
             var user = await _context.Users.FindAsync(id);
@@ -100,7 +100,7 @@ namespace MelodifyAPI.Controllers
 
         // 4. Đổi tên, ảnh, email, mật khẩu (Chỉ người dùng đó hoặc Admin)
         [HttpPut("change/{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize] // Tạm thời để test
         public async Task<IActionResult> UpdateUser(int id, [FromForm] UpdateUserDTO updateDto)
         {
             try
@@ -162,7 +162,7 @@ namespace MelodifyAPI.Controllers
 
         // 5. Xóa người dùng (Chỉ Admin)
         [HttpDelete("{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             try
@@ -194,7 +194,7 @@ namespace MelodifyAPI.Controllers
 
         // 6. Thêm người dùng
         [HttpPost("register")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<UserDTO>> RegisterUser([FromForm] RegisterUserDTO registerDto)
         {
             try

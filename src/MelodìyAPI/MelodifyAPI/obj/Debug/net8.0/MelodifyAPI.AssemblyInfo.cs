@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaadfc29c3835ddbb56e7b141e2d5ed027e845e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9afb4b47b8b449304bcc3d8b78a4647583703d81")]
 [assembly: System.Reflection.AssemblyProductAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

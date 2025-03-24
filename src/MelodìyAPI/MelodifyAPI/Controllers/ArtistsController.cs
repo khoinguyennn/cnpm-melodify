@@ -57,7 +57,7 @@ namespace MelodifyAPI.Controllers
 
         // Thêm Nghệ sĩ (Chỉ Admin mới có quyền)
         [HttpPost("add")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> AddArtist(
     [FromForm] string name,
@@ -126,7 +126,7 @@ namespace MelodifyAPI.Controllers
 
         //Sửa thông tin nghệ sĩ(Chỉ Admin)
         [HttpPut("{id}")]
-        [AllowAnonymous] // Tạm thời để test
+        [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> UpdateArtist(
     int id,
@@ -195,13 +195,39 @@ namespace MelodifyAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteArtist(int id)
         {
-            var artist = await _context.Artists.FindAsync(id);
-            if (artist == null)
-                return NotFound("Không tìm thấy nghệ sĩ.");
+            try
+            {
+                var artist = await _context.Artists.FindAsync(id);
+                if (artist == null)
+                    return NotFound("Không tìm thấy nghệ sĩ.");
 
-            _context.Artists.Remove(artist);
-            await _context.SaveChangesAsync();
-            return Ok("Đã xóa nghệ sĩ thành công!");
+                // Xóa file ảnh
+                if (!string.IsNullOrEmpty(artist.ImageUrl))
+                {
+                    var imagePath = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot",
+                        artist.ImageUrl.TrimStart('/')
+                    );
+                    if (System.IO.File.Exists(imagePath))
+                    {
+                        System.IO.File.Delete(imagePath);
+                    }
+                }
+
+                _context.Artists.Remove(artist);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { message = "Đã xóa nghệ sĩ thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    message = "Có lỗi xảy ra khi xóa nghệ sĩ!",
+                    error = ex.Message
+                });
+            }
         }
 
 
