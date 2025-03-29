@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {}
+    "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {}
   },
   "projects": {
-    "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {
+    "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
+        "projectUniqueName": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
         "projectName": "MelodifyAPI",
-        "projectPath": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
+        "projectPath": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Melodify Project\\src\\MelodìyAPI\\MelodifyAPI\\obj\\",
+        "outputPath": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

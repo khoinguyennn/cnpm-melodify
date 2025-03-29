@@ -1,97 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\",
+  "WorkspaceRootPath": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\followcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\followcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\followcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\playlistsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\playlistsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\playlistsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\data\\melodifycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\data\\melodifycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:data\\melodifycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\playlistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\playlistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\playlistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\dtos\\songdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\songdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\songdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\filters\\fileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\filters\\fileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:filters\\fileuploadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\dtos\\favoritesongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\dtos\\favoritesongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:dtos\\favoritesongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melod\u00ECyapi\\melodifyapi\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify project\\src\\melodifyapi\\melodifyapi\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,11 +122,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ChangePasswordDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "DTOs\\ChangePasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:38:16.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAYwDUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UpdateUserDTO.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\UpdateUserDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\UpdateUserDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateUserDTO.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\UpdateUserDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\UpdateUserDTO.cs",
               "RelativeToolTip": "DTOs\\UpdateUserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RegisterUserDTO.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\RegisterUserDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterUserDTO.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\RegisterUserDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\RegisterUserDTO.cs",
               "RelativeToolTip": "DTOs\\RegisterUserDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,24 +171,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAOQAAAAAAAAAAAAswPsAAAAAAAAA",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAuwBcBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T06:57:02.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ArtistsController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\ArtistsController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\ArtistsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\ArtistsController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\ArtistsController.cs",
               "RelativeToolTip": "Controllers\\ArtistsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +196,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\RegisterDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterDTO.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\RegisterDTO.cs",
               "RelativeToolTip": "DTOs\\RegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,11 +208,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlaylistSongController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\PlaylistSongController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\PlaylistSongController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlaylistSongController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\PlaylistSongController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\PlaylistSongController.cs",
               "RelativeToolTip": "Controllers\\PlaylistSongController.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAgwEcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +220,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Playlist.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Playlist.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "Models\\Playlist.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Playlist.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Playlist.cs",
               "RelativeToolTip": "Models\\Playlist.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PlaylistSong.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\PlaylistSong.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\PlaylistSong.cs",
               "RelativeDocumentMoniker": "Models\\PlaylistSong.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\PlaylistSong.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\PlaylistSong.cs",
               "RelativeToolTip": "Models\\PlaylistSong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -227,11 +244,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FileUploadOperation.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Filters\\FileUploadOperation.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Filters\\FileUploadOperation.cs",
               "RelativeDocumentMoniker": "Filters\\FileUploadOperation.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Filters\\FileUploadOperation.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Filters\\FileUploadOperation.cs",
               "RelativeToolTip": "Filters\\FileUploadOperation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +256,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Song.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Song.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Song.cs",
               "RelativeDocumentMoniker": "Models\\Song.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Song.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Song.cs",
               "RelativeToolTip": "Models\\Song.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA5wB8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\appsettings.json",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\appsettings.json",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -263,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "FavoriteSongDTO.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\FavoriteSongDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\FavoriteSongDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\FavoriteSongDTO.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\FavoriteSongDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\FavoriteSongDTO.cs",
               "RelativeToolTip": "DTOs\\FavoriteSongDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Program.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,11 +304,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SongDTO.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\SongDTO.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\SongDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\SongDTO.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\DTOs\\SongDTO.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\DTOs\\SongDTO.cs",
               "RelativeToolTip": "DTOs\\SongDTO.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwBEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FavoriteController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\FavoriteController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\FavoriteController.cs",
               "RelativeDocumentMoniker": "Controllers\\FavoriteController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\FavoriteController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\FavoriteController.cs",
               "RelativeToolTip": "Controllers\\FavoriteController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAnwBkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlaylistController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\PlaylistController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\PlaylistController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlaylistController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\PlaylistController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\PlaylistController.cs",
               "RelativeToolTip": "Controllers\\PlaylistController.cs",
               "ViewState": "AQIAAKAAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Follow.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Follow.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Follow.cs",
               "RelativeDocumentMoniker": "Models\\Follow.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Follow.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Follow.cs",
               "RelativeToolTip": "Models\\Follow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Favorite.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Favorite.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Favorite.cs",
               "RelativeDocumentMoniker": "Models\\Favorite.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Favorite.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Favorite.cs",
               "RelativeToolTip": "Models\\Favorite.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -347,11 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Artist.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Artist.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Models\\Artist.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Models\\Artist.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Models\\Artist.cs",
               "RelativeToolTip": "Models\\Artist.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MelodifyContext.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Data\\MelodifyContext.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Data\\MelodifyContext.cs",
               "RelativeDocumentMoniker": "Data\\MelodifyContext.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Data\\MelodifyContext.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Data\\MelodifyContext.cs",
               "RelativeToolTip": "Data\\MelodifyContext.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAswB4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SongsController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\SongsController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\SongsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SongsController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\SongsController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\SongsController.cs",
               "RelativeToolTip": "Controllers\\SongsController.cs",
               "ViewState": "AQIAAKwAAAAAAAAAAAAkwLsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FollowController.cs",
-              "DocumentMoniker": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\FollowController.cs",
+              "DocumentMoniker": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\FollowController.cs",
               "RelativeDocumentMoniker": "Controllers\\FollowController.cs",
-              "ToolTip": "D:\\Melodify Project\\src\\Melod\u00ECyAPI\\MelodifyAPI\\Controllers\\FollowController.cs",
+              "ToolTip": "D:\\Melodify Project\\src\\MelodifyAPI\\MelodifyAPI\\Controllers\\FollowController.cs",
               "RelativeToolTip": "Controllers\\FollowController.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

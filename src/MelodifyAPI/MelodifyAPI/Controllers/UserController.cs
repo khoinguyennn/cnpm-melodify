@@ -247,5 +247,36 @@ namespace MelodifyAPI.Controllers
             }
         }
 
+
+        // 7. Đổi mật khẩu
+        [HttpPut("change-password/{id}")]
+        [Authorize]
+        public async Task<IActionResult> ChangePassword(int id, [FromBody] ChangePasswordDTO model)
+        {
+            try
+            {
+                var user = await _context.Users.FindAsync(id);
+                if (user == null)
+                    return NotFound("Không tìm thấy người dùng.");
+
+                var userId = User.FindFirstValue(ClaimTypes.Name);
+                if (userId != id.ToString())
+                    return Forbid("Bạn không có quyền đổi mật khẩu của người dùng này.");
+
+                // Kiểm tra mật khẩu cũ
+                if (!BCrypt.Net.BCrypt.Verify(model.CurrentPassword, user.PasswordHash))
+                    return BadRequest("Mật khẩu hiện tại không đúng.");
+
+                // Cập nhật mật khẩu mới
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.NewPassword);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { message = "Đổi mật khẩu thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi khi đổi mật khẩu: {ex.Message}");
+            }
+        }
     }
 }
