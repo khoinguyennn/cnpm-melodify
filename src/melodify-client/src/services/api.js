@@ -9,20 +9,20 @@ const getAuthHeaders = () => {
 };
 
 const handleResponse = async (response) => {
-  if (response.status === 401) {
-    localStorage.removeItem('token');
-    window.location.href = '/login';
-    throw new Error('Unauthorized');
+  const data = await response.text();
+  
+  try {
+    const jsonData = JSON.parse(data);
+    if (!response.ok) {
+      throw new Error(jsonData.message || 'Có lỗi xảy ra');
+    }
+    return jsonData;
+  } catch (error) {
+    if (!response.ok) {
+      throw new Error(data || 'Có lỗi xảy ra');
+    }
+    return { message: data };
   }
-
-  const text = await response.text();
-  const data = text ? JSON.parse(text) : {};
-
-  if (!response.ok) {
-    throw new Error(data.message || response.statusText);
-  }
-
-  return data;
 };
 
 const api = {

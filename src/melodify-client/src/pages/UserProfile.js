@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { User, Lock, Shield, Edit2, Camera, Mail, Phone, Calendar, MapPin, Info } from "lucide-react"
+import { User, Lock, Shield, Edit2, Camera, Mail, Phone, Calendar, MapPin, Info, Eye, EyeOff } from "lucide-react"
 import Sidebar from "../components/layout/Sidebar/Sidebar"
 import Navbar from "../components/layout/Navbar/Navbar"
 import { useAuth } from '../contexts/AuthContext'
@@ -16,6 +16,19 @@ const UserProfile = () => {
     const [isEditing, setIsEditing] = useState(false)
     const [toasts, setToasts] = useState([])
     const fileInputRef = useRef(null)
+    const [showPassword, setShowPassword] = useState({
+      current: false,
+      new: false,
+      confirm: false
+    })
+  
+    const [passwordData, setPasswordData] = useState({
+      currentPassword: '',
+      newPassword: '',
+      confirmPassword: '',
+    })
+  
+    const [isSubmitting, setIsSubmitting] = useState(false)
   
     const [formData, setFormData] = useState({
       displayName: user?.displayName || "",
@@ -133,6 +146,50 @@ const UserProfile = () => {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(dateString).toLocaleDateString('vi-VN', options)
     }
+  
+    const handlePasswordChange = async (e) => {
+      e.preventDefault();
+      
+      if (passwordData.newPassword !== passwordData.confirmPassword) {
+        addToast("Mật khẩu mới không khớp!", "error");
+        return;
+      }
+
+      if (passwordData.newPassword.length < 6) {
+        addToast("Mật khẩu mới phải có ít nhất 6 ký tự!", "error");
+        return;
+      }
+
+      try {
+        setIsSubmitting(true);
+        
+        const response = await userApi.changePassword(user.userID, {
+          currentPassword: passwordData.currentPassword,
+          newPassword: passwordData.newPassword
+        });
+
+        setPasswordData({
+          currentPassword: '',
+          newPassword: '',
+          confirmPassword: ''
+        });
+        
+        addToast(response.message || "Đổi mật khẩu thành công!", "success");
+      } catch (error) {
+        console.error('Password change error:', error);
+        addToast(error.message || "Có lỗi xảy ra khi đổi mật khẩu!", "error");
+      } finally {
+        setIsSubmitting(false);
+      }
+    };
+  
+    const getPasswordStrength = () => {
+      const length = passwordData.newPassword.length;
+      if (length >= 8) return "Strong";
+      if (length >= 6) return "Medium";
+      if (length >= 4) return "Weak";
+      return "Very Weak";
+    };
   
     return (
       <div className="d-flex min-vh-100" style={{ backgroundColor: "#18122B", color: "white" }}>
@@ -279,7 +336,7 @@ const UserProfile = () => {
                       <div className="info-item full-width">
                         <div className="info-label">
                           <Mail size={18} />
-                          <span>Email</span>
+                          <span> Email</span>
                         </div>
                         <div className="info-content">
                           {isEditing ? (
@@ -311,32 +368,122 @@ const UserProfile = () => {
                 )}
   
                 {activeTab === "security" && (
-                  <div>
-                    <h2 className="mb-4">Password & Security</h2>
-                    <div className="card bg-dark mb-4">
-                      <div className="card-body">
-                        <h5 className="card-title">Change Password</h5>
-                        <div className="mb-3">
-                          <label className="form-label">Current Password</label>
-                          <input type="password" className="form-control" />
-                        </div>
-                        <div className="mb-3">
-                          <label className="form-label">New Password</label>
-                          <input type="password" className="form-control" />
-                        </div>
-                        <div className="mb-3">
-                          <label className="form-label">Confirm New Password</label>
-                          <input type="password" className="form-control" />
-                        </div>
-                        <button className="btn btn-primary">Update Password</button>
-                      </div>
+                  <div className="profile-content-card">
+                    <div className="d-flex justify-content-between align-items-center mb-4">
+                      <h2 className="content-title mb-0">Security Settings</h2>
                     </div>
   
-                    <div className="card bg-dark">
-                      <div className="card-body">
-                        <h5 className="card-title">Two-Factor Authentication</h5>
-                        <p className="card-text">Add an extra layer of security to your account</p>
-                        <button className="btn btn-outline-primary">Enable 2FA</button>
+                    <div className="security-card">
+                      <div className="security-card-header">
+                        <div className="d-flex align-items-center gap-3">
+                          <div className="security-icon">
+                            <Lock size={20} />
+                          </div>
+                          <div>
+                            <h5 className="mb-1">Change Password</h5>
+                            <p className="text-muted mb-0">Make sure to use a strong password to protect your account</p>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div className="security-card-body">
+                        <form onSubmit={handlePasswordChange}>
+                          <div className="password-field mb-4">
+                            <label className="form-label text-muted">Current Password</label>
+                            <div className="input-group">
+                              <input 
+                                type={showPassword.current ? "text" : "password"}
+                                className="form-control custom-input" 
+                                value={passwordData.currentPassword}
+                                onChange={(e) => setPasswordData(prev => ({
+                                  ...prev,
+                                  currentPassword: e.target.value
+                                }))}
+                                placeholder="Enter your current password"
+                              />
+                              <button 
+                                type="button" 
+                                className="btn btn-outline-secondary" 
+                                onClick={() => setShowPassword(prev => ({ ...prev, current: !prev.current }))}
+                              >
+                                {showPassword.current ? <Eye size={18} /> : <EyeOff size={18} />}
+                              </button>
+                            </div>
+                          </div>
+  
+                          <div className="password-field mb-4">
+                            <label className="form-label text-muted">New Password</label>
+                            <div className="input-group">
+                              <input 
+                                type={showPassword.new ? "text" : "password"}
+                                className="form-control custom-input" 
+                                value={passwordData.newPassword}
+                                onChange={(e) => setPasswordData(prev => ({
+                                  ...prev,
+                                  newPassword: e.target.value
+                                }))}
+                                placeholder="Enter new password"
+                              />
+                              <button 
+                                type="button" 
+                                className="btn btn-outline-secondary"
+                                onClick={() => setShowPassword(prev => ({ ...prev, new: !prev.new }))}
+                              >
+                                {showPassword.new ? <Eye size={18} /> : <EyeOff size={18} />}
+                              </button>
+                            </div>
+                            <div className="password-strength mt-2">
+                              <div className="strength-bars d-flex gap-1">
+                                <div className={`strength-bar ${passwordData.newPassword.length >= 2 ? 'active' : ''}`}></div>
+                                <div className={`strength-bar ${passwordData.newPassword.length >= 4 ? 'active' : ''}`}></div>
+                                <div className={`strength-bar ${passwordData.newPassword.length >= 6 ? 'active' : ''}`}></div>
+                                <div className={`strength-bar ${passwordData.newPassword.length >= 8 ? 'active' : ''}`}></div>
+                              </div>
+                              <small className="text-muted">Password strength: {getPasswordStrength()}</small>
+                            </div>
+                          </div>
+  
+                          <div className="password-field mb-4">
+                            <label className="form-label text-muted">Confirm New Password</label>
+                            <div className="input-group">
+                              <input 
+                                type={showPassword.confirm ? "text" : "password"}
+                                className="form-control custom-input" 
+                                value={passwordData.confirmPassword}
+                                onChange={(e) => setPasswordData(prev => ({
+                                  ...prev,
+                                  confirmPassword: e.target.value
+                                }))}
+                                placeholder="Confirm your new password"
+                              />
+                              <button 
+                                type="button" 
+                                className="btn btn-outline-secondary"
+                                onClick={() => setShowPassword(prev => ({ ...prev, confirm: !prev.confirm }))}
+                              >
+                                {showPassword.confirm ? <Eye size={18} /> : <EyeOff size={18} />}
+                              </button>
+                            </div>
+                          </div>
+  
+                          <button 
+                            type="submit" 
+                            className="btn btn-primary btn-lg w-100 d-flex align-items-center justify-content-center gap-2"
+                            disabled={isSubmitting}
+                          >
+                            {isSubmitting ? (
+                              <>
+                                <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Updating...
+                              </>
+                            ) : (
+                              <>
+                                <Lock size={18} />
+                                Update Password
+                              </>
+                            )}
+                          </button>
+                        </form>
                       </div>
                     </div>
                   </div>

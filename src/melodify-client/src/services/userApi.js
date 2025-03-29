@@ -68,5 +68,26 @@ export const userApi = {
       body: formData
     });
     return api.handleResponse(response);
+  },
+
+  // Thêm method đổi mật khẩu
+  changePassword: async (id, passwordData) => {
+    try {
+      const response = await fetch(`${api.API_BASE_URL}/User/change-password/${id}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': api.getAuthHeaders().Authorization,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          currentPassword: passwordData.currentPassword,
+          newPassword: passwordData.newPassword
+        })
+      });
+
+      return api.handleResponse(response);
+    } catch (error) {
+      throw error;
+    }
   }
 }; 
