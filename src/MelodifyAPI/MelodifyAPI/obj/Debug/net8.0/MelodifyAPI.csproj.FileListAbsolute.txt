@@ -1,0 +1,856 @@
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.json
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.exe
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.deps.json
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.runtimeconfig.json
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.pdb
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Humanizer.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.AssemblyReference.cache
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfoInputs.cache
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfo.cs
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.CoreCompileInputs.cache
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MelodifyAPI.props
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MelodifyAPI.props
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MelodifyAPI.props
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\scopedcss\bundle\MelodifyAPI.styles.css
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
+D:\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.exe
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.deps.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.runtimeconfig.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.AssemblyReference.cache
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfoInputs.cache
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfo.cs
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.CoreCompileInputs.cache
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MelodifyAPI.props
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MelodifyAPI.props
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MelodifyAPI.props
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\scopedcss\bundle\MelodifyAPI.styles.css
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll
+D:\Melodify Project\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.staticwebassets.runtime.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.staticwebassets.runtime.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.exe
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.deps.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.runtimeconfig.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.AssemblyReference.cache
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfoInputs.cache
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfo.cs
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.CoreCompileInputs.cache
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MelodifyAPI.props
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MelodifyAPI.props
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MelodifyAPI.props
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\scopedcss\bundle\MelodifyAPI.styles.css
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll
+D:\Melodify Project\src\MelodìyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.sourcelink.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.staticwebassets.runtime.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.exe
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.deps.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.runtimeconfig.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.AssemblyReference.cache
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfoInputs.cache
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfo.cs
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.CoreCompileInputs.cache
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.sourcelink.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MelodifyAPI.props
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MelodifyAPI.props
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MelodifyAPI.props
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\scopedcss\bundle\MelodifyAPI.styles.css
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
+D:\Melodify Project\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\appsettings.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.staticwebassets.runtime.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.exe
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.deps.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.runtimeconfig.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.AssemblyReference.cache
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfoInputs.cache
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.AssemblyInfo.cs
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.csproj.CoreCompileInputs.cache
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MelodifyAPI.props
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MelodifyAPI.props
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MelodifyAPI.props
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\scopedcss\bundle\MelodifyAPI.styles.css
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.pdb
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.genruntimeconfig.cache
+D:\Melodify Project Sample\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\ref\MelodifyAPI.dll

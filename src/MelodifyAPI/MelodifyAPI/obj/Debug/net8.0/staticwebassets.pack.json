@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\25e9525d-1ea8-4c40-8a14-bf0bdf4bb5c1.jpg",
+      "PackagePath": "staticwebassets\\data\\artists\\25e9525d-1ea8-4c40-8a14-bf0bdf4bb5c1.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\308ce054-58ca-4120-a9e9-95937f72aba3.jpg",
+      "PackagePath": "staticwebassets\\data\\artists\\308ce054-58ca-4120-a9e9-95937f72aba3.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\6a3444fd-6a96-42d5-8873-da845456597f.jpg",
+      "PackagePath": "staticwebassets\\data\\artists\\6a3444fd-6a96-42d5-8873-da845456597f.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\92bea955-0dd2-4d54-b501-a5f3a9e2250b.jpg",
+      "PackagePath": "staticwebassets\\data\\artists\\92bea955-0dd2-4d54-b501-a5f3a9e2250b.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\9f880dcb-3268-4cb4-ba39-4fded0003a36.jfif",
+      "PackagePath": "staticwebassets\\data\\artists\\9f880dcb-3268-4cb4-ba39-4fded0003a36.jfif"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\c9050500-2b2d-4989-96d7-73cdee6eb10c.jpg",
+      "PackagePath": "staticwebassets\\data\\artists\\c9050500-2b2d-4989-96d7-73cdee6eb10c.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\artists\\e4bdd052-d8bb-459b-94a5-f9e4fa960449.JPG",
+      "PackagePath": "staticwebassets\\data\\artists\\e4bdd052-d8bb-459b-94a5-f9e4fa960449.JPG"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\02314dd1-3d45-43eb-b774-08aa17170817.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\02314dd1-3d45-43eb-b774-08aa17170817.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\5bbf9eb6-0d96-4505-9601-9c1c9737616e.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\5bbf9eb6-0d96-4505-9601-9c1c9737616e.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\65fac12c-6766-4492-9e99-089285fe0441.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\65fac12c-6766-4492-9e99-089285fe0441.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\82b1ab0b-bed3-4555-b5c3-46ad0c4e951b.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\82b1ab0b-bed3-4555-b5c3-46ad0c4e951b.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\f60d6385-cc7c-4ded-9468-81d78cd9a3fb.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\f60d6385-cc7c-4ded-9468-81d78cd9a3fb.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\audio\\fc3fc73e-ba65-433f-9de5-c6d1f8865fa2.mp3",
+      "PackagePath": "staticwebassets\\data\\audio\\fc3fc73e-ba65-433f-9de5-c6d1f8865fa2.mp3"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\4e1a390a-2e85-4cdb-bd51-53fee30cfc36.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\4e1a390a-2e85-4cdb-bd51-53fee30cfc36.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\7073d405-8df0-4f4e-9fcd-27da164092f9.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\7073d405-8df0-4f4e-9fcd-27da164092f9.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\b2ead15d-d6e0-4e1b-ae11-fa11f5f8fa5d.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\b2ead15d-d6e0-4e1b-ae11-fa11f5f8fa5d.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\c8dc6d92-1465-4d9e-a825-8b8fe737e245.jfif",
+      "PackagePath": "staticwebassets\\data\\img\\c8dc6d92-1465-4d9e-a825-8b8fe737e245.jfif"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\d1d21052-2c19-43a1-b430-3823f83ddd49.JPG",
+      "PackagePath": "staticwebassets\\data\\img\\d1d21052-2c19-43a1-b430-3823f83ddd49.JPG"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\img\\e22456b2-dbd9-44a2-8b43-6fee18f37ff4.JPG",
+      "PackagePath": "staticwebassets\\data\\img\\e22456b2-dbd9-44a2-8b43-6fee18f37ff4.JPG"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\32a7e25e-5a0c-4071-9ccd-8ee00f398f74.jpg",
+      "PackagePath": "staticwebassets\\data\\users\\32a7e25e-5a0c-4071-9ccd-8ee00f398f74.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\864a0d33-f9cb-4961-aecb-24eda1a99d97.png",
+      "PackagePath": "staticwebassets\\data\\users\\864a0d33-f9cb-4961-aecb-24eda1a99d97.png"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\95599e50-33cc-4774-9763-4c3944dddb9e.jpg",
+      "PackagePath": "staticwebassets\\data\\users\\95599e50-33cc-4774-9763-4c3944dddb9e.jpg"
+    },
+    {
+      "Id": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\a3ea86e2-8ee5-47c9-8f4b-e8cf363d1d6c.jpg",
+      "PackagePath": "staticwebassets\\data\\users\\a3ea86e2-8ee5-47c9-8f4b-e8cf363d1d6c.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MelodifyAPI.props",
+      "PackagePath": "build\\MelodifyAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MelodifyAPI.props",
+      "PackagePath": "buildMultiTargeting\\MelodifyAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MelodifyAPI.props",
+      "PackagePath": "buildTransitive\\MelodifyAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
