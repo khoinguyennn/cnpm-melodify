@@ -54,5 +54,39 @@ namespace MelodifyAPI.Controllers
         }
 
 
+        // Đăng nhập
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(new { message = ModelState.Values.SelectMany(v => v.Errors).First().ErrorMessage });
+
+            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == loginDto.Email);
+            if (existingUser == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, existingUser.PasswordHash))
+                return Unauthorized(new { message = "Sai email hoặc mật khẩu." });
+
+            // Tạo token JWT có chứa Role
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_config["Jwt:Key"]);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+    {
+        new Claim(ClaimTypes.Name, existingUser.UserID.ToString()),
+        new Claim("role", existingUser.Role) // Đảm bảo key là "role"
+    }),
+                Expires = DateTime.UtcNow.AddHours(1),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var tokenString = tokenHandler.WriteToken(token);
+
+            return Ok(new
+            {
+                message = "Đăng nhập thành công!",
+                token = tokenString
+            });
+        }
+
     }
 }

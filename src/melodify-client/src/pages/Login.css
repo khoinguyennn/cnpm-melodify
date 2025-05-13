@@ -1,0 +1,18 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h2.text-center.mb-4.text-white {
+  font-weight: bold;
+}
+
+/* Đảm bảo toast container luôn ở trên cùng */
+.toast-container {
+  z-index: 9999;
+}
+
+/* Thêm transition cho toast */
+.toast {
+  transition: all 0.3s ease-in-out;
+}
+
