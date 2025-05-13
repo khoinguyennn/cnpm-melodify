@@ -4,6 +4,16 @@ import Register from "./pages/Register";
 
 
 
+// Protected Route Component
+const ProtectedRoute = ({ children }) => {
+  const token = localStorage.getItem('token');
+  if (!token) {
+    return <Navigate to="/login" replace />;
+  }
+  return children;
+};
+
+
 // Auth Route Component
 const AuthRoute = ({ children }) => {
   const token = localStorage.getItem('token');
@@ -29,6 +39,16 @@ function App() {
           />
 
           {/* Auth Routes */}
+          <Route
+            path="/login"
+            element={
+              <AuthRoute>
+                <Login />
+              </AuthRoute>
+            }
+          />
+          
+          
           <Route
             path="/register"
             element={
