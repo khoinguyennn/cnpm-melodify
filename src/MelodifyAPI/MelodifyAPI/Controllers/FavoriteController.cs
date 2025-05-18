@@ -34,6 +34,7 @@ namespace MelodifyAPI.Controllers
                 .ThenInclude(s => s.Artist)
                 .Select(f => new FavoriteSongDto
                 {
+                    SongID = f.Song.SongID,
                     Title = f.Song.Title,
                     ArtistName = f.Song.Artist.Name,
                     ImageUrl = f.Song.ImageUrl, // Thêm hình ảnh bài hát
