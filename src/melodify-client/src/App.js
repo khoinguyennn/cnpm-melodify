@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import Register from "./pages/Register";
+import Login from "./pages/Login";
+import AdminDashboard from "./admin/pages/AdminDashboard";
+import Favorites from './pages/Favorites';
 
 
 
@@ -12,6 +15,26 @@ const ProtectedRoute = ({ children }) => {
   }
   return children;
 };
+
+
+// Admin Route Component
+const AdminRoute = ({ children }) => {
+  const token = localStorage.getItem('token');
+  if (!token) {
+    return <Navigate to="/login" replace />;
+  }
+
+
+// Kiểm tra role từ token
+  try {
+    const tokenParts = token.split('.');
+    const payload = JSON.parse(atob(tokenParts[1]));
+    if (payload.role !== 'Admin') {
+      return <Navigate to="/" replace />;
+    }
+  } catch (error) {
+    return <Navigate to="/login" replace />;
+  }
 
 
 // Auth Route Component
@@ -38,6 +61,17 @@ function App() {
             }
           />
 
+
+          {/* Admin Routes */}
+          <Route
+            path="/admin/*"
+            element={
+              <AdminRoute>
+                <AdminDashboard />
+              </AdminRoute>
+            }
+          />
+
           {/* Auth Routes */}
           <Route
             path="/login"
@@ -57,7 +91,7 @@ function App() {
               </AuthRoute>
             }
           />
-
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </AuthProvider>
     </Router>
