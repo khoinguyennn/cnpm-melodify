@@ -3,6 +3,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import AdminDashboard from "./admin/pages/AdminDashboard";
+import Favorites from './pages/Favorites';
 
 
 
@@ -90,7 +91,7 @@ function App() {
               </AuthRoute>
             }
           />
-
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </AuthProvider>
     </Router>
