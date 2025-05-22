@@ -369,6 +369,38 @@ namespace MelodifyAPI.Controllers
             }
         }
 
+        //6. Tìm kiếm bài hát
+        // Tìm kiếm bài hát theo từ khóa (Title, Album, hoặc Tên Nghệ sĩ)
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<SongDTO>>> SearchSongs(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return BadRequest("Vui lòng nhập từ khóa tìm kiếm.");
+
+            var songs = await _context.Songs
+                .Include(s => s.Artist)  // Bao gồm thông tin Nghệ sĩ
+                .Where(s => s.Title.Contains(keyword)
+                            || s.Album.Contains(keyword)
+                            || s.Artist.Name.Contains(keyword))
+                .Select(s => new SongDTO
+                {
+                    SongID = s.SongID,
+                    Title = s.Title,
+                    ArtistID = s.ArtistID,
+                    ArtistName = s.Artist.Name,
+                    Album = s.Album,
+                    Genre = s.Genre,
+                    ImageUrl = s.ImageUrl,
+                    Url = s.Url
+                })
+                .ToListAsync();
+
+            if (songs.Count == 0)
+                return NotFound("Không tìm thấy bài hát phù hợp.");
+
+            return Ok(songs);
+        }
+
 
     }
 }
