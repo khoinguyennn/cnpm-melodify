@@ -4,6 +4,8 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import AdminDashboard from "./admin/pages/AdminDashboard";
 import Favorites from './pages/Favorites';
+import ArtistDetail from "./pages/ArtistDetail";
+
 
 
 
@@ -91,6 +93,16 @@ function App() {
               </AuthRoute>
             }
           />
+
+          <Route
+            path="/artist/:id"
+            element={
+              <ProtectedRoute>
+                <ArtistDetail />
+              </ProtectedRoute>
+            }
+          />
+
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </AuthProvider>
