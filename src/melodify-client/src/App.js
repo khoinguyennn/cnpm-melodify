@@ -1,12 +1,20 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
-import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
+import ForgotPassword from "./pages/ForgotPassword";
+import Home from "./pages/Home";
 import AdminDashboard from "./admin/pages/AdminDashboard";
-import Favorites from './pages/Favorites';
+import UserProfile from "./pages/UserProfile";
 import ArtistDetail from "./pages/ArtistDetail";
-
-
+import AllArtists from './pages/AllArtists';
+import AllSongs from './pages/AllSongs';
+import Search from './pages/Search';
+import FollowedArtists from './pages/FollowedArtists';
+import Favorites from './pages/Favorites';
+import Playlists from './pages/Playlists';
+import PlaylistDetail from './pages/PlaylistDetail';
+import AllPlaylists from './pages/AllPlaylists';
 
 
 // Protected Route Component
@@ -18,7 +26,6 @@ const ProtectedRoute = ({ children }) => {
   return children;
 };
 
-
 // Admin Route Component
 const AdminRoute = ({ children }) => {
   const token = localStorage.getItem('token');
@@ -26,8 +33,7 @@ const AdminRoute = ({ children }) => {
     return <Navigate to="/login" replace />;
   }
 
-
-// Kiểm tra role từ token
+  // Kiểm tra role từ token
   try {
     const tokenParts = token.split('.');
     const payload = JSON.parse(atob(tokenParts[1]));
@@ -38,6 +44,8 @@ const AdminRoute = ({ children }) => {
     return <Navigate to="/login" replace />;
   }
 
+  return children;
+};
 
 // Auth Route Component
 const AuthRoute = ({ children }) => {
@@ -63,6 +71,14 @@ function App() {
             }
           />
 
+          <Route
+            path="/profile"
+            element={
+              <ProtectedRoute>
+                <UserProfile />
+              </ProtectedRoute>
+            }
+          />
 
           {/* Admin Routes */}
           <Route
@@ -83,13 +99,19 @@ function App() {
               </AuthRoute>
             }
           />
-          
-          
           <Route
             path="/register"
             element={
               <AuthRoute>
                 <Register />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/forgot"
+            element={
+              <AuthRoute>
+                <ForgotPassword />
               </AuthRoute>
             }
           />
@@ -103,7 +125,14 @@ function App() {
             }
           />
 
+          <Route path="/artists" element={<AllArtists />} />
+          <Route path="/songs" element={<AllSongs />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/artist" element={<FollowedArtists />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/playlist" element={<Playlists />} />
+          <Route path="/playlist/:id" element={<PlaylistDetail />} />
+          <Route path="/playlists" element={<AllPlaylists />} />
         </Routes>
       </AuthProvider>
     </Router>
