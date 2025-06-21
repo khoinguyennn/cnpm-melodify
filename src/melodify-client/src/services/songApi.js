@@ -96,22 +96,16 @@ export const songApi = {
       headers: api.getAuthHeaders()
     });
     return api.handleResponse(response);
+  },
+
+  // Thêm vào songApi object
+  getFavorites: async (userId) => {
+    if (!userId) {
+      throw new Error('User ID is required');
+    }
+    const response = await fetch(`${api.API_BASE_URL}/Favorite/${userId}`, {
+      headers: api.getAuthHeaders()
+    });
+    return api.handleResponse(response);
   }
 }; 
-
-
-  // Tìm kiếm bài hát
- search: async (keyword) => {
-    const response = await fetch(`${api.API_BASE_URL}/Songs/search?keyword=${encodeURIComponent(keyword)}`, {
-      headers: api.getAuthHeaders()
-    });
-    return api.handleResponse(response);
-  };
-
-  // Tìm kiếm theo thể loại
-  getByGenre: async (genre) => {
-    const response = await fetch(`${api.API_BASE_URL}/Songs/genre/${encodeURIComponent(genre)}`, {
-      headers: api.getAuthHeaders()
-    });
-    return api.handleResponse(response);
-  };
