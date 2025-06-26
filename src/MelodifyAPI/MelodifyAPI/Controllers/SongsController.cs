@@ -402,5 +402,57 @@ namespace MelodifyAPI.Controllers
         }
 
 
+        //7. Phát nhạc
+        // Phát nhạc theo SongID
+        [HttpGet("{id}/play")]
+        public async Task<IActionResult> PlaySong(int id)
+        {
+            var song = await _context.Songs.FindAsync(id);
+            if (song == null)
+                return NotFound("Không tìm thấy bài hát.");
+
+            // Kiểm tra URL của bài hát
+            if (string.IsNullOrEmpty(song.Url))
+                return BadRequest("Bài hát chưa có URL phát nhạc.");
+
+            // Trả về URL của file nhạc để ReactJS phát nhạc
+            return Ok(new { Url = song.Url });
+        }
+
+
+
+        // Thêm endpoint để lấy bài hát theo thể loại
+        [HttpGet("genre/{genre}")]
+        public async Task<ActionResult<IEnumerable<SongDTO>>> GetSongsByGenre(string genre)
+        {
+            try
+            {
+                var songs = await _context.Songs
+                    .Include(s => s.Artist)
+                    .Where(s => s.Genre.ToLower() == genre.ToLower())
+                    .Select(s => new SongDTO
+                    {
+                        SongID = s.SongID,
+                        Title = s.Title,
+                        ArtistID = s.ArtistID,
+                        ArtistName = s.Artist.Name,
+                        Album = s.Album,
+                        Genre = s.Genre,
+                        ImageUrl = s.ImageUrl,
+                        Url = s.Url
+                    })
+                    .ToListAsync();
+
+                if (!songs.Any())
+                    return NotFound($"Không tìm thấy bài hát nào thuộc thể loại {genre}");
+
+                return Ok(songs);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Có lỗi xảy ra khi lấy danh sách bài hát!", error = ex.Message });
+            }
+        }
+
     }
 }
