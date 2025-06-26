@@ -1,0 +1,71 @@
+h2.fs-4.fw-bold {
+  padding: 10px;
+}
+
+
+.play-icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+
+.ratio:hover .play-icon-overlay {
+  opacity: 1;
+}
+
+.text-secondary-light {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.song-overlay {
+  transition: opacity 0.3s ease;
+}
+
+.song-card:hover .song-overlay {
+  opacity: 1 !important;
+}
+
+.song-card:hover .btn {
+  transform: scale(1) !important;
+}
+
+.playing-animation {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.playing-animation span {
+  width: 3px;
+  height: 12px;
+  background-color: #8D2FBD;
+  border-radius: 3px;
+  animation: bounce 0.8s infinite;
+}
+
+.playing-animation.paused span {
+  animation-play-state: paused;
+}
+
+.playing-animation span:nth-child(2) { animation-delay: 0.1s; }
+.playing-animation span:nth-child(3) { animation-delay: 0.2s; }
+.playing-animation span:nth-child(4) { animation-delay: 0.3s; }
+.playing-animation span:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes bounce {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+.btn-primary {
+  transition: transform 0.3s ease;
+} 
