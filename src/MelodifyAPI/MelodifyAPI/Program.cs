@@ -105,19 +105,22 @@ builder.Services.Configure<IISServerOptions>(options =>
     options.MaxRequestBodySize = 209715200; // 200MB
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MelodifyAPI v1");
+    c.RoutePrefix = "swagger";
+});
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "MelodifyAPI v1");
-        c.RoutePrefix = "swagger";
-    });
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
