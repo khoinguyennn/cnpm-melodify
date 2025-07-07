@@ -72,5 +72,27 @@ export const playlistApi = {
       headers: api.getAuthHeaders()
     });
     return api.handleResponse(response);
+  },
+  
+   // Cập nhật playlist
+   updatePlaylist: async (id, formData) => {
+    const response = await fetch(`${api.API_BASE_URL}/Playlist/${id}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': api.getAuthHeaders().Authorization
+        // KHÔNG set 'Content-Type', để browser tự thêm 'multipart/form-data' cho FormData
+      },
+      body: formData
+    });
+    return api.handleResponse(response);
+  },    
+
+  // Xóa bài hát
+  deletePlaylist: async (id) => {
+    const response = await fetch(`${api.API_BASE_URL}/Playlist/${id}`, {
+      method: 'DELETE',
+      headers: api.getAuthHeaders()
+    });
+    return api.handleResponse(response);
   }
 }; 
