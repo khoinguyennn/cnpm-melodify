@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { HomeIcon, Music, Users, PlaySquare, Mic } from "lucide-react"
+import { HomeIcon, Music, Users, PlaySquare, Mic, MoveLeft } from "lucide-react"
 
 const Sidebar = ({ isOpen }) => {
   return (
@@ -57,6 +57,13 @@ const Sidebar = ({ isOpen }) => {
           >
             <Users size={20} />
             {isOpen && <span>Users</span>}
+          </Link>
+          <Link
+            to="/"
+            className="d-flex align-items-center gap-3 p-2 text-white text-decoration-none rounded hover-bg"
+          >
+            <MoveLeft size={20} />
+            {isOpen && <span>Back to home</span>}
           </Link>
         </nav>
       </div>

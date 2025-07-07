@@ -33,7 +33,7 @@ const Overview = () => {
         totalSongs: songs.length,
         totalArtists: artists.length,
         totalUsers: users.length,
-        activeUsers: activeUsers
+        activeUsers: users.length
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
