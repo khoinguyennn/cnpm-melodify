@@ -1,0 +1,42 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: melodify-api
+    ports:
+      - "7153:7153"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production 
+      - ASPNETCORE_URLS=http://+:7153
+    depends_on:
+      - sqlserver
+    networks:
+      - melodify-network
+
+  sqlserver:
+    build:
+      context: .
+      dockerfile: Dockerfile.sqlserver
+    container_name: melodify-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "YourStrong@Passw0rd"
+      MSSQL_PID: Express
+    ports:
+      - "1434:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ./init-scripts:/init
+    command: ["/bin/bash", "/init/entrypoint.sh"]
+    networks:
+      - melodify-network
+
+
+volumes:
+  sql_data:
+
+networks:
+  melodify-network:
