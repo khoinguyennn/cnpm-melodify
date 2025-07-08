@@ -6,6 +6,7 @@ using MelodifyAPI.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
 using Microsoft.AspNetCore.Http;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -22,6 +23,8 @@ namespace MelodifyAPI.Controllers
 
         // 1. Lấy danh sách tất cả bài hát (Công khai)
         [HttpGet]
+        [SwaggerOperation(Summary = "Lấy tất cả bài hát", Description = "Trả về danh sách bài hát công khai")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<SongDTO>>> GetAllSongs()
         {
             var songs = await _context.Songs
@@ -46,6 +49,9 @@ namespace MelodifyAPI.Controllers
 
         // 2. Lấy chi tiết một bài hát theo ID (Công khai)
         [HttpGet("{id}")]
+        [SwaggerOperation(Summary = "Lấy chi tiết bài hát", Description = "Trả về thông tin bài hát theo ID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<SongDTO>> GetSongById(int id)
         {
             var song = await _context.Songs
@@ -76,6 +82,10 @@ namespace MelodifyAPI.Controllers
         [Authorize(Roles = "Admin")]
         [HttpPost("add")]
         [Consumes("multipart/form-data")] // Quan trọng: Xác định kiểu dữ liệu gửi lên
+        [SwaggerOperation(Summary = "Thêm bài hát", Description = "Chỉ Admin mới có thể thêm bài hát mới")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> AddSong(
             [FromForm] string title,
             [FromForm] int artistId,
@@ -183,6 +193,15 @@ namespace MelodifyAPI.Controllers
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
+        [SwaggerOperation(
+            Summary = "Cập nhật bài hát",
+            Description = "Chỉ Admin mới có quyền cập nhật thông tin bài hát. Có thể cập nhật title, artistId, album, genre, releaseDate, audio và image."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> UpdateSong(
      int id,
      [FromForm] string title,
@@ -287,6 +306,13 @@ namespace MelodifyAPI.Controllers
         // 5. Xóa bài hát (Chỉ Admin)
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
+        [SwaggerOperation(
+            Summary = "Xóa bài hát",
+            Description = "Xóa bài hát theo ID, bao gồm cả các liên kết Playlist_Songs, Favorites và file audio/image vật lý. Chỉ Admin có quyền thực hiện."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
         public async Task<IActionResult> DeleteSong(int id)
         {
@@ -372,6 +398,8 @@ namespace MelodifyAPI.Controllers
         //6. Tìm kiếm bài hát
         // Tìm kiếm bài hát theo từ khóa (Title, Album, hoặc Tên Nghệ sĩ)
         [HttpGet("search")]
+        [SwaggerOperation(Summary = "Tìm kiếm bài hát", Description = "Tìm kiếm theo tên bài hát, album hoặc nghệ sĩ")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<SongDTO>>> SearchSongs(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))
@@ -405,6 +433,9 @@ namespace MelodifyAPI.Controllers
         //7. Phát nhạc
         // Phát nhạc theo SongID
         [HttpGet("{id}/play")]
+        [SwaggerOperation(Summary = "Phát nhạc", Description = "Trả về URL bài hát để phát")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> PlaySong(int id)
         {
             var song = await _context.Songs.FindAsync(id);
@@ -423,6 +454,8 @@ namespace MelodifyAPI.Controllers
 
         // Thêm endpoint để lấy bài hát theo thể loại
         [HttpGet("genre/{genre}")]
+        [SwaggerOperation(Summary = "Lọc bài hát theo thể loại", Description = "Trả về danh sách bài hát theo thể loại")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<SongDTO>>> GetSongsByGenre(string genre)
         {
             try

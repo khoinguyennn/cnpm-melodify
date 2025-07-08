@@ -4,6 +4,7 @@ using MelodifyAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -20,6 +21,8 @@ namespace MelodifyAPI.Controllers
 
         //Lấy danh sách tất cả nghệ sĩ(Công khai)
         [HttpGet]
+        [SwaggerOperation(Summary = "Lấy danh sách nghệ sĩ", Description = "Trả về danh sách tất cả nghệ sĩ (công khai)")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<ArtistDTO>>> GetAllArtists()
         {
             var artists = await _context.Artists
@@ -36,6 +39,9 @@ namespace MelodifyAPI.Controllers
 
         //Lấy chi tiết một nghệ sĩ theo ID(Công khai)
         [HttpGet("{id}")]
+        [SwaggerOperation(Summary = "Lấy chi tiết nghệ sĩ", Description = "Trả về thông tin chi tiết của một nghệ sĩ theo ID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ArtistDTO>> GetArtistById(int id)
         {
             var artist = await _context.Artists.FindAsync(id);
@@ -58,6 +64,10 @@ namespace MelodifyAPI.Controllers
         [HttpPost("add")]
         [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
+        [SwaggerOperation(Summary = "Thêm nghệ sĩ", Description = "Chỉ Admin mới được phép thêm nghệ sĩ mới")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> AddArtist(
     [FromForm] string name,
     [FromForm] string bio,
@@ -127,6 +137,10 @@ namespace MelodifyAPI.Controllers
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
         [Consumes("multipart/form-data")]
+        [SwaggerOperation(Summary = "Cập nhật nghệ sĩ", Description = "Cập nhật tên, mô tả và ảnh nghệ sĩ (Chỉ Admin)")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> UpdateArtist(
     int id,
     [FromForm] string name,
@@ -192,6 +206,10 @@ namespace MelodifyAPI.Controllers
         //Xóa nghệ sĩ(Chỉ Admin)
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
+        [SwaggerOperation(Summary = "Cập nhật nghệ sĩ", Description = "Cập nhật tên, mô tả và ảnh nghệ sĩ (Chỉ Admin)")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> DeleteArtist(int id)
         {
             try
@@ -232,6 +250,9 @@ namespace MelodifyAPI.Controllers
 
         // Lấy danh sách bài hát thuộc về nghệ sĩ (Công khai)
         [HttpGet("{id}/songs")]
+        [SwaggerOperation(Summary = "Lấy bài hát theo nghệ sĩ", Description = "Trả về danh sách các bài hát của một nghệ sĩ cụ thể")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<IEnumerable<SongDTO>>> GetSongsByArtist(int id)
         {
             var artist = await _context.Artists.FindAsync(id);

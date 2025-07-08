@@ -5,6 +5,7 @@ using MelodifyAPI.Models;
 using MelodifyAPI.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -24,6 +25,11 @@ namespace MelodifyAPI.Controllers
         // 1. Lấy danh sách tất cả người dùng (Chỉ Admin)
         [HttpGet]
         [Authorize(Roles = "Admin")]
+        [SwaggerOperation(
+            Summary = "Lấy danh sách người dùng",
+            Description = "Chỉ Admin được phép truy cập."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetAllUsers()
         {
             var users = await _context.Users
@@ -43,6 +49,14 @@ namespace MelodifyAPI.Controllers
         // 2. Lấy thông tin người dùng theo ID (Chỉ Admin hoặc chính người dùng)
         [HttpGet("{id}")]
         [Authorize]
+        [SwaggerOperation(
+            Summary = "Xem thông tin người dùng",
+            Description = "Chỉ chính người dùng hoặc Admin có quyền truy cập."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<UserDTO>> GetUserById(int id)
         {
             var userId = User.FindFirstValue(ClaimTypes.Name);
@@ -76,6 +90,13 @@ namespace MelodifyAPI.Controllers
         // 3. Cập nhật thông tin người dùng (Chỉ người dùng đó hoặc Admin)
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
+        [SwaggerOperation(
+               Summary = "Cập nhật thông tin người dùng",
+               Description = "Chỉ chính người dùng hoặc Admin có quyền cập nhật."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDTO updatedUserDto)
         {
             var user = await _context.Users.FindAsync(id);
@@ -101,6 +122,12 @@ namespace MelodifyAPI.Controllers
         // 4. Đổi tên, ảnh, email, mật khẩu (Chỉ người dùng đó hoặc Admin)
         [HttpPut("change/{id}")]
         [Authorize] // Tạm thời để test
+        [SwaggerOperation(
+            Summary = "Cập nhật ảnh, tên hiển thị, role",
+            Description = "Chỉ chính người dùng hoặc Admin có quyền cập nhật."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> UpdateUser(int id, [FromForm] UpdateUserDTO updateDto)
         {
             try
@@ -163,6 +190,13 @@ namespace MelodifyAPI.Controllers
         // 5. Xóa người dùng (Chỉ Admin)
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
+        [SwaggerOperation(
+            Summary = "Xóa người dùng",
+            Description = "Chỉ Admin có quyền xóa người dùng khỏi hệ thống."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> DeleteUser(int id)
         {
             try
@@ -195,6 +229,13 @@ namespace MelodifyAPI.Controllers
         // 6. Thêm người dùng
         [HttpPost("register")]
         [Authorize(Roles = "Admin")]
+        [SwaggerOperation(
+            Summary = "Thêm người dùng mới",
+            Description = "Chỉ Admin được phép thêm người dùng."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<UserDTO>> RegisterUser([FromForm] RegisterUserDTO registerDto)
         {
             try
@@ -251,6 +292,14 @@ namespace MelodifyAPI.Controllers
         // 7. Đổi mật khẩu
         [HttpPut("change-password/{id}")]
         [Authorize]
+        [SwaggerOperation(
+            Summary = "Đổi mật khẩu",
+            Description = "Chỉ chính người dùng có quyền đổi mật khẩu."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> ChangePassword(int id, [FromBody] ChangePasswordDTO model)
         {
             try

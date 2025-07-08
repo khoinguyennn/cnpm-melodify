@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MelodifyAPI.Data;
 using MelodifyAPI.Models;
 using System.Security.Claims;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -21,6 +22,10 @@ namespace MelodifyAPI.Controllers
         // 1. Lấy danh sách Nghệ sĩ đã theo dõi (Yêu cầu đăng nhập)
         [Authorize]
         [HttpGet("following")]
+        [SwaggerOperation(Summary = "Lấy danh sách nghệ sĩ đã theo dõi", Description = "Trả về danh sách nghệ sĩ mà người dùng hiện tại đã theo dõi")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<IEnumerable<Artist>>> GetFollowedArtists()
         {
             // Lấy UserID từ token
@@ -43,6 +48,12 @@ namespace MelodifyAPI.Controllers
         // 2. Theo dõi Nghệ sĩ (Yêu cầu đăng nhập)
         [Authorize]
         [HttpPost("follow/{artistId}")]
+        [SwaggerOperation(Summary = "Theo dõi nghệ sĩ", Description = "Người dùng hiện tại có thể theo dõi nghệ sĩ theo ID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> FollowArtist(int artistId)
         {
             try
@@ -101,6 +112,10 @@ namespace MelodifyAPI.Controllers
         // 3. Bỏ theo dõi Nghệ sĩ (Yêu cầu đăng nhập)
         [Authorize]
         [HttpDelete("unfollow/{artistId}")]
+        [SwaggerOperation(Summary = "Bỏ theo dõi nghệ sĩ", Description = "Người dùng hiện tại có thể bỏ theo dõi nghệ sĩ theo ID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> UnfollowArtist(int artistId)
         {
             // Lấy UserID từ token

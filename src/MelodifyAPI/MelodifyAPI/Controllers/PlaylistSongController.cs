@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MelodifyAPI.Data;
 using MelodifyAPI.Models;
 using MelodifyAPI.DTOs;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -20,6 +21,9 @@ namespace MelodifyAPI.Controllers
 
         // 1. Lấy danh sách bài hát trong Playlist
         [HttpGet("{playlistId}")]
+        [SwaggerOperation(Summary = "Lấy bài hát trong Playlist", Description = "Trả về danh sách các bài hát thuộc một playlist cụ thể")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<IEnumerable<SongDTO>>> GetSongsInPlaylist(int playlistId)
         {
             var songs = await _context.Playlist_Songs
@@ -49,6 +53,11 @@ namespace MelodifyAPI.Controllers
         // 2. Thêm bài hát vào Playlist (Yêu cầu đăng nhập)
         [HttpPost("add")]
         [Authorize]
+        [SwaggerOperation(Summary = "Thêm bài hát vào Playlist", Description = "Yêu cầu người dùng đã đăng nhập")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> AddSongToPlaylist(int playlistId, int songId)
         {
             // Kiểm tra Playlist có tồn tại không
@@ -83,6 +92,10 @@ namespace MelodifyAPI.Controllers
         // 3. Xóa bài hát khỏi Playlist (Yêu cầu đăng nhập)
         [HttpDelete("remove")]
         [Authorize]
+        [SwaggerOperation(Summary = "Xóa bài hát khỏi Playlist", Description = "Yêu cầu người dùng đã đăng nhập")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> RemoveSongFromPlaylist(int playlistId, int songId)
         {
             var playlistSong = await _context.Playlist_Songs

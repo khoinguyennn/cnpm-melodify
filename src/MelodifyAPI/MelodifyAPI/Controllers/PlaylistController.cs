@@ -5,6 +5,7 @@ using MelodifyAPI.Models;
 using MelodifyAPI.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -22,6 +23,8 @@ namespace MelodifyAPI.Controllers
 
         // 1. Lấy danh sách tất cả Playlist (Công khai)
         [HttpGet]
+        [SwaggerOperation(Summary = "Lấy danh sách tất cả Playlist", Description = "Công khai - trả về toàn bộ danh sách playlist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<PlaylistDTO>>> GetAllPlaylists()
         {
             var playlists = await _context.Playlists
@@ -40,6 +43,9 @@ namespace MelodifyAPI.Controllers
 
         // 2. Lấy chi tiết một Playlist theo ID (Công khai)
         [HttpGet("{id}")]
+        [SwaggerOperation(Summary = "Lấy chi tiết Playlist", Description = "Công khai - lấy chi tiết Playlist theo ID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<PlaylistDTO>> GetPlaylistById(int id)
         {
             var playlist = await _context.Playlists
@@ -65,6 +71,9 @@ namespace MelodifyAPI.Controllers
         // 3. Thêm Playlist (Yêu cầu đăng nhập)
         [HttpPost("add")]
         [Authorize]
+        [SwaggerOperation(Summary = "Thêm Playlist", Description = "Chỉ người dùng đã đăng nhập có thể thêm Playlist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> AddPlaylist([FromForm] PlaylistDTO playlistDto)
         {
             if (!ModelState.IsValid)
@@ -135,6 +144,12 @@ namespace MelodifyAPI.Controllers
         // 4. Sửa Playlist (Chỉ chủ sở hữu hoặc Admin)
         [HttpPut("{id}")]
         [Authorize]
+        [Consumes("multipart/form-data")]
+        [SwaggerOperation(Summary = "Cập nhật Playlist", Description = "Chỉ chủ sở hữu hoặc Admin có thể sửa Playlist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> UpdatePlaylist(int id, [FromBody] PlaylistDTO updatedPlaylistDto)
         {
             var userId = User.FindFirstValue(ClaimTypes.Name);
@@ -164,6 +179,11 @@ namespace MelodifyAPI.Controllers
         // 5. Xóa Playlist (Chỉ chủ sở hữu hoặc Admin)
         [HttpDelete("{id}")]
         [Authorize]
+        [SwaggerOperation(Summary = "Xóa Playlist", Description = "Chỉ chủ sở hữu hoặc Admin có thể xóa Playlist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeletePlaylist(int id)
         {
             var userId = User.FindFirstValue(ClaimTypes.Name);
@@ -188,6 +208,9 @@ namespace MelodifyAPI.Controllers
         // 6. Lấy danh sách Playlist của người dùng đang đăng nhập
         [HttpGet("my")]
         [Authorize]
+        [SwaggerOperation(Summary = "Lấy Playlist cá nhân", Description = "Trả về danh sách Playlist của người dùng hiện tại")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<IEnumerable<PlaylistDTO>>> GetMyPlaylists()
         {
             // Lấy UserID từ token đăng nhập

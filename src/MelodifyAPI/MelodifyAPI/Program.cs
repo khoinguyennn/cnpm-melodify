@@ -57,6 +57,8 @@ builder.Services.AddSwaggerGen(c =>
 
     // Cấu hình cho file upload
     c.OperationFilter<FileUploadOperation>();
+    c.EnableAnnotations();
+
 });
 
 // Cấu hình DbContext

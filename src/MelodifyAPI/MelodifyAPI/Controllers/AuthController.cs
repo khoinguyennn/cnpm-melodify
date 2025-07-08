@@ -7,6 +7,7 @@ using MelodifyAPI.Data;
 using MelodifyAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using MelodifyAPI.DTOs;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MelodifyAPI.Controllers
 {
@@ -25,6 +26,12 @@ namespace MelodifyAPI.Controllers
 
         // Đăng ký
         [HttpPost("register")]
+        [SwaggerOperation(
+            Summary = "Đăng ký tài khoản",
+            Description = "Tạo mới người dùng với email, mật khẩu và tên hiển thị."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(object))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(object))]
         public async Task<IActionResult> Register([FromBody] RegisterDTO registerDto)
         {
             if (!ModelState.IsValid)
@@ -56,6 +63,12 @@ namespace MelodifyAPI.Controllers
 
         // Đăng nhập
         [HttpPost("login")]
+        [SwaggerOperation(
+            Summary = "Đăng nhập",
+            Description = "Đăng nhập bằng email và mật khẩu. Trả về token JWT nếu thành công."
+        )]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(object))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(object))]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
         {
             if (!ModelState.IsValid)
