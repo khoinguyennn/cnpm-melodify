@@ -1,4 +1,6 @@
-﻿namespace MelodifyAPI.DTOs
+﻿using Microsoft.AspNetCore.Http;
+
+namespace MelodifyAPI.DTOs
 {
     public class PlaylistDTO
     {
@@ -8,6 +10,7 @@
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? ImageUrl { get; set; } // Thêm ImageUrl
+        public IFormFile? Image { get; set; }
     }
 
 }
