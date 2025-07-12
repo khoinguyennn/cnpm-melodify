@@ -1,0 +1,43 @@
+name: Melodify Backend CI/CD
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/MelodifyAPI  # ✅ Làm việc đúng thư mục chứa docker-compose.yml
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+
+    - name: 🐳 Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: 🧱 Build backend & DB containers
+      run: docker-compose build
+
+    - name: 🚀 Run backend and database
+      run: docker-compose up -d
+
+    - name: ⏳ Wait for API to be ready
+      run: |
+        echo "Waiting for API to be ready..."
+        sleep 20
+        curl --fail http://localhost:7153 || exit 1
+
+    - name: 📦 Show running containers
+      run: docker ps -a
+
+    # Optional: Run backend unit tests if you have
+    # - name: 🧪 Run backend tests
+    #   run: docker exec melodify-api dotnet test
+
+    - name: 🛑 Stop containers
+      run: docker-compose down

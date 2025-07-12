@@ -24,7 +24,7 @@ namespace MelodifyAPI.Controllers
             _config = config;
         }
 
-        // Đăng ký
+        // Đăng ký tài khoản
         [HttpPost("register")]
         [SwaggerOperation(
             Summary = "Đăng ký tài khoản",
@@ -61,7 +61,7 @@ namespace MelodifyAPI.Controllers
         }
 
 
-        // Đăng nhập
+        // Đăng nhập tài khoản
         [HttpPost("login")]
         [SwaggerOperation(
             Summary = "Đăng nhập",
