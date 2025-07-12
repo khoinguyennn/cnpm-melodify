@@ -8,6 +8,7 @@ import Overview from "../components/Overview"
 import SongManagement from "../components/SongManagement"
 import ArtistManagement from "../components/ArtistManagement"
 import UserManagement from "../components/UserManagement"
+import PlaylistManagement from "../components/PlaylistManagement"
 import "../styles/AdminDashboard.css"
 
 const AdminDashboard = () => {
@@ -28,6 +29,7 @@ const AdminDashboard = () => {
             <Route path="songs" element={<SongManagement />} />
             <Route path="artists" element={<ArtistManagement />} />
             <Route path="users" element={<UserManagement />} />
+            <Route path="playlists" element={<PlaylistManagement />} />
           </Routes>
         </div>
       </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {}
+    "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {}
   },
   "projects": {
-    "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {
+    "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
+        "projectUniqueName": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
         "projectName": "MelodifyAPI",
-        "projectPath": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
+        "projectPath": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\MelodifyAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Melodify Project Sample\\src\\MelodifyAPI\\MelodifyAPI\\obj\\",
+        "outputPath": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

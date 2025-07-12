@@ -150,7 +150,11 @@ namespace MelodifyAPI.Controllers
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> UpdatePlaylist(int id, [FromBody] PlaylistDTO updatedPlaylistDto)
+        public async Task<IActionResult> UpdatePlaylist(
+            int id,
+            [FromForm] string title,
+            [FromForm] string? description,
+            IFormFile? imageFile = null)
         {
             var userId = User.FindFirstValue(ClaimTypes.Name);
             if (userId == null)
@@ -160,17 +164,38 @@ namespace MelodifyAPI.Controllers
             if (playlist == null)
                 return NotFound("Không tìm thấy Playlist.");
 
-            // Kiểm tra nếu user không phải chủ sở hữu playlist và không phải admin
             if (playlist.UserID != int.Parse(userId) && !User.IsInRole("Admin"))
                 return Forbid("Bạn không có quyền sửa Playlist này.");
 
-            // Cập nhật thông tin Playlist
-            playlist.Title = updatedPlaylistDto.Title;
-            playlist.Description = updatedPlaylistDto.Description;
-            playlist.ImageUrl = updatedPlaylistDto.ImageUrl;
+            // Cập nhật title và description
+            playlist.Title = title;
+            playlist.Description = description ?? string.Empty;
+
+            // Xử lý ảnh mới nếu có
+            if (imageFile != null)
+            {
+                // Xóa ảnh cũ
+                var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", playlist.ImageUrl.TrimStart('/'));
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
+
+                // Lưu ảnh mới
+                string imageFileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+                var imageDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "data", "playlist");
+                Directory.CreateDirectory(imageDirectory);
+                string imagePath = Path.Combine(imageDirectory, imageFileName);
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                playlist.ImageUrl = $"/data/playlist/{imageFileName}";
+            }
 
             await _context.SaveChangesAsync();
-            return Ok("Đã cập nhật Playlist thành công!");
+            return Ok(new { message = "Cập nhật Playlist thành công!" });
         }
 
 

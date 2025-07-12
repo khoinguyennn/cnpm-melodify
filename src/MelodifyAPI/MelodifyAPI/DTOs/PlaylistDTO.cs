@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
+﻿using System.ComponentModel.DataAnnotations;
 namespace MelodifyAPI.DTOs
 {
     public class PlaylistDTO
@@ -10,6 +9,8 @@ namespace MelodifyAPI.DTOs
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? ImageUrl { get; set; } // Thêm ImageUrl
+        // Chỉ sử dụng cho input, không trả về trong response
+        [System.Text.Json.Serialization.JsonIgnore]
         public IFormFile? Image { get; set; }
     }
 
