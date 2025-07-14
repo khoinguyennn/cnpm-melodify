@@ -166,7 +166,7 @@ const Search = () => {
                   >
                     <div className="position-relative mb-3" onClick={() => handlePlaySong(song)}>
                       <img
-                        src={`https://localhost:7153${song.imageUrl}`}
+                        src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`}
                         alt={song.title}
                         className="img-fluid rounded-3"
                         style={{ aspectRatio: "1/1", objectFit: "cover" }}

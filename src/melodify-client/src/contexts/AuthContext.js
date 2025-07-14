@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
 
   const fetchUserData = async (userId) => {
     try {
-      const response = await fetch(`https://localhost:7153/api/User/${userId}`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/User/${userId}`, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`
         }

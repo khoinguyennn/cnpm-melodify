@@ -102,7 +102,7 @@ const PlaylistDetail = () => {
         <div className="playlist-header">
           <div className="playlist-info">
           <img 
-            src={playlist.imageUrl ? `https://localhost:7153${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"} 
+            src={playlist.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"} 
             alt={playlist.title} 
             className="playlist-cover"
           />
@@ -132,7 +132,7 @@ const PlaylistDetail = () => {
                   <span className="song-number">{index + 1}</span>
                   <div className="position-relative">
                     <img 
-                      src={song.imageUrl ? `https://localhost:7153${song.imageUrl}` : "/app-asset/img/song-default.png"}
+                      src={song.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}` : "/app-asset/img/song-default.png"}
                       alt={song.title} 
                       className="song-cover" 
                     />

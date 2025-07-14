@@ -51,7 +51,7 @@ const UserManagement = () => {
 
   const handleEdit = (user) => {
     setCurrentUser(user)
-    setImagePreview(`https://localhost:7153${user.imageUrl}`)
+    setImagePreview(`${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}`)
     setShowPassword(false)
     setIsModalOpen(true)
   }
@@ -122,7 +122,7 @@ const UserManagement = () => {
       label: "Avatar", 
       render: (user) => (
         <img 
-          src={`https://localhost:7153${user.imageUrl}`} 
+          src={`${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}`} 
           alt={user.displayName} 
           style={{ width: "40px", height: "40px", borderRadius: "50%" }} 
         />

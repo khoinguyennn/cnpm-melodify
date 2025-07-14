@@ -48,7 +48,7 @@ const AllPlaylists = () => {
               >
                 <div className="ratio ratio-1x1 rounded overflow-hidden mb-2">
                   <img
-                    src={playlist.imageUrl ? `https://localhost:7153${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"}
+                    src={playlist.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"}
                     alt={playlist.title}
                     className="w-100 h-100"
                     style={{ objectFit: "cover" }}

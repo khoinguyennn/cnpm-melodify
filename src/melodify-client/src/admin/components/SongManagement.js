@@ -69,8 +69,8 @@ const SongManagement = () => {
       ...song,
       releaseDate: song.releaseDate.split('T')[0] // Format date cho input
     });
-    setAudioPreview(`https://localhost:7153${song.url}`);
-    setImagePreview(`https://localhost:7153${song.imageUrl}`);
+    setAudioPreview(`${process.env.REACT_APP_BACKEND_URL}${song.url}`);
+    setImagePreview(`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`);
     setIsModalOpen(true);
   };
 
@@ -158,7 +158,7 @@ const SongManagement = () => {
       label: "Cover", 
       render: (song) => (
         <img 
-          src={`https://localhost:7153${song.imageUrl}`} 
+          src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`} 
           alt={song.title} 
           style={{ width: "50px", height: "50px", borderRadius: "4px" }} 
         />
@@ -174,7 +174,7 @@ const SongManagement = () => {
       label: "Audio", 
       render: (song) => (
         <audio controls>
-          <source src={`https://localhost:7153${song.url}`} type="audio/mpeg" />
+          <source src={`${process.env.REACT_APP_BACKEND_URL}${song.url}`} type="audio/mpeg" />
         </audio>
       ) 
     },

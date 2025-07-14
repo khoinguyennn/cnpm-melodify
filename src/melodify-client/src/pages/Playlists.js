@@ -141,7 +141,7 @@ const PlaylistCard = ({ playlist }) => {
         <div className="playlist-image">
           {playlist.imageUrl ? (
             <img
-              src={`https://localhost:7153${playlist.imageUrl}`}
+              src={`${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}`}
               alt={playlist.title}
               className="w-100 h-100"
               style={{ objectFit: "cover" }}

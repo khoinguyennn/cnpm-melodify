@@ -55,7 +55,7 @@ const ArtistManagement = () => {
 
   const handleEdit = (artist) => {
     setCurrentArtist(artist)
-    setImagePreview(`https://localhost:7153${artist.imageUrl}`)
+    setImagePreview(`${process.env.REACT_APP_BACKEND_URL}${artist.imageUrl}`)
     setIsModalOpen(true)
   }
 
@@ -133,7 +133,7 @@ const ArtistManagement = () => {
       label: "Image", 
       render: (artist) => (
         <img 
-          src={`https://localhost:7153${artist.imageUrl}`} 
+          src={`${process.env.REACT_APP_BACKEND_URL}${artist.imageUrl}`} 
           alt={artist.name} 
           style={{ width: "50px", height: "50px", borderRadius: "50%" }} 
         />

@@ -49,7 +49,7 @@ const ProfileMenu = forwardRef(({ user }, ref) => {
       <div className="px-3 py-2 border-bottom border-secondary">
         <div className="d-flex align-items-center gap-2">
           <img
-            src={user?.imageUrl ? `https://localhost:7153${user.imageUrl}` : "/app-asset/img/avatar.webp"}
+            src={user?.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}` : "/app-asset/img/avatar.webp"}
             alt="Profile"
             style={{ width: "32px", height: "32px", borderRadius: "50%", objectFit: "cover" }}
           />

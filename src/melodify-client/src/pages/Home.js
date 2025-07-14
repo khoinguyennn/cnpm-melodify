@@ -327,7 +327,7 @@ const Home = () => {
               >
                 <div className="ratio ratio-1x1 rounded overflow-hidden mb-2">
                   <img
-                    src={`https://localhost:7153${song.imageUrl}` || "/placeholder.svg"}
+                    src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}` || "/placeholder.svg"}
                     alt={song.title}
                     className="w-100 h-100"
                     style={{ objectFit: "cover" }}
@@ -397,7 +397,7 @@ const Home = () => {
                   id: song.songID,
                   title: song.title,
                   artist: song.artistName,
-                  image: `https://localhost:7153${song.imageUrl}`
+                  image: `${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`
                 }}
                 onPlay={() => handlePlaySong(song)}
                 isPlaying={isPlaying && currentSong?.songID === song.songID}
@@ -412,7 +412,7 @@ const Home = () => {
                   id: song.songID,
                   title: song.title,
                   artist: song.artistName,
-                  image: `https://localhost:7153${song.imageUrl}`
+                  image: `${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`
                 }}
                 onPlay={() => handlePlaySong(song)}
                 isPlaying={isPlaying && currentSong?.songID === song.songID}
@@ -427,7 +427,7 @@ const Home = () => {
                   id: song.songID,
                   title: song.title,
                   artist: song.artistName,
-                  image: `https://localhost:7153${song.imageUrl}`
+                  image: `${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`
                 }}
                 onPlay={() => handlePlaySong(song)}
                 isPlaying={isPlaying && currentSong?.songID === song.songID}
@@ -456,7 +456,7 @@ const Home = () => {
               >
                 <div className="ratio ratio-1x1 rounded overflow-hidden mb-2">
                   <img
-                    src={playlist.imageUrl ? `https://localhost:7153${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"}
+                    src={playlist.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}` : "/app-asset/img/playlist-default.png"}
                     alt={playlist.title}
                     className="w-100 h-100"
                     style={{ objectFit: "cover" }}
@@ -498,7 +498,7 @@ const Home = () => {
                 <div className="text-center artist-card">
                   <div className="position-relative mx-auto mb-3" style={{ width: "150px", height: "150px" }}>
                     <img
-                      src={`https://localhost:7153${artist.imageUrl}`}
+                      src={`${process.env.REACT_APP_BACKEND_URL}${artist.imageUrl}`}
                       alt={artist.name}
                       className="rounded-circle w-100 h-100"
                       style={{ objectFit: "cover" }}

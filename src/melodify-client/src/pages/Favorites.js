@@ -18,7 +18,7 @@ const FavoriteItem = ({ song, onPlay, isPlaying, onRemoveFavorite }) => {
     >
       <div className="position-relative">
         <img
-          src={`https://localhost:7153${song.imageUrl}`}
+          src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}`}
           alt={song.title}
           className="rounded"
           style={{ width: "60px", height: "60px", objectFit: "cover" }}

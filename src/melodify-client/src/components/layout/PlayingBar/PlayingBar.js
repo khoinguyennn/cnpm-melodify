@@ -140,11 +140,11 @@ const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: pare
 
   return (
     <div className={`playing-bar ${isSidebarOpen ? 'with-sidebar' : ''}`}>
-      <audio ref={audioRef} src={`https://localhost:7153${song.url}`} />
+      <audio ref={audioRef} src={`${process.env.REACT_APP_BACKEND_URL}${song.url}`} />
 
       <div className="song-info">
         <img 
-          src={`https://localhost:7153${song.imageUrl}` || "/placeholder.svg"} 
+          src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}` || "/placeholder.svg"} 
           alt={song.title} 
           className="cover-art" 
         />

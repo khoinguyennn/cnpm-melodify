@@ -63,7 +63,7 @@ const PlaylistManagement = () => {
 
   const handleEdit = (playlist) => {
     setCurrentPlaylist(playlist)
-    setImagePreview(`https://localhost:7153${playlist.imageUrl}`)
+    setImagePreview(`${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}`)
     setIsModalOpen(true)
   }
 
@@ -149,7 +149,7 @@ const PlaylistManagement = () => {
       label: "Image",
       render: (playlist) => (
         <img
-          src={`https://localhost:7153${playlist.imageUrl}`}
+          src={`${process.env.REACT_APP_BACKEND_URL}${playlist.imageUrl}`}
           alt={playlist.title}
           style={{ width: "40px", height: "40px", borderRadius: "8px", objectFit: "cover" }}
         />

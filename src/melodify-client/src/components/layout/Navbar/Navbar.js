@@ -75,7 +75,7 @@ const Navbar = ({ toggleSidebar, isSidebarOpen }) => {
         <div className="ms-auto position-relative">
           <img
             ref={avatarRef}
-            src={user?.imageUrl ? `https://localhost:7153${user.imageUrl}` : "/app-asset/img/avatar.webp"}
+            src={user?.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}` : "/app-asset/img/avatar.webp"}
             alt="Profile"
             style={{ width: "40px", height: "40px", borderRadius: "50%", cursor: "pointer", objectFit: "cover" }}
             onClick={toggleProfileMenu}

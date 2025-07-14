@@ -63,7 +63,7 @@ const FollowedArtists = () => {
                 <div className="text-center artist-card">
                   <div className="position-relative mx-auto mb-3" style={{ width: "150px", height: "150px" }}>
                     <img
-                      src={`https://localhost:7153${artist.imageUrl}`}
+                      src={`${process.env.REACT_APP_BACKEND_URL}${artist.imageUrl}`}
                       alt={artist.name}
                       className="rounded-circle w-100 h-100"
                       style={{ objectFit: "cover" }}

@@ -62,7 +62,7 @@ const AllSongs = () => {
               >
                 <div className="ratio ratio-1x1 rounded overflow-hidden mb-2">
                   <img
-                    src={`https://localhost:7153${song.imageUrl}` || "/placeholder.svg"}
+                    src={`${process.env.REACT_APP_BACKEND_URL}${song.imageUrl}` || "/placeholder.svg"}
                     alt={song.title}
                     className="w-100 h-100"
                     style={{ objectFit: "cover" }}

@@ -35,7 +35,7 @@ const UserProfile = () => {
       displayName: user?.displayName || "",
       email: user?.email || "",
       imageFile: null,
-      imagePreview: user?.imageUrl ? `https://localhost:7153${user.imageUrl}` : "/app-asset/img/avatar.webp",
+      imagePreview: user?.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}` : "/app-asset/img/avatar.webp",
     })
   
     useEffect(() => {
@@ -44,7 +44,7 @@ const UserProfile = () => {
           displayName: user.displayName || "",
           email: user.email || "",
           imageFile: null,
-          imagePreview: user.imageUrl ? `https://localhost:7153${user.imageUrl}` : "/app-asset/img/avatar.webp",
+          imagePreview: user.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}` : "/app-asset/img/avatar.webp",
         })
       }
     }, [user])
@@ -76,7 +76,7 @@ const UserProfile = () => {
         displayName: user?.displayName || "",
         email: user?.email || "",
         imageFile: null,
-        imagePreview: user?.imageUrl ? `https://localhost:7153${user.imageUrl}` : "/app-asset/img/avatar.webp",
+        imagePreview: user?.imageUrl ? `${process.env.REACT_APP_BACKEND_URL}${user.imageUrl}` : "/app-asset/img/avatar.webp",
       })
     }
   
