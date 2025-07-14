@@ -30,7 +30,7 @@ jobs:
       run: |
         echo "Waiting for API to be ready..."
         sleep 20
-        curl --fail http://localhost:7153 || exit 1
+        curl --fail http://localhost:7153/swagger/index.html || exit 1
 
     - name: 📦 Show running containers
       run: docker ps -a
