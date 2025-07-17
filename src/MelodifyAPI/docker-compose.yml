@@ -13,6 +13,8 @@ services:
       - ASPNETCORE_URLS=http://+:7153
     depends_on:
       - sqlserver
+    volumes:
+      - ./MelodifyAPI/wwwroot/data:/app/wwwroot/data
     networks:
       - melodify-network
 
