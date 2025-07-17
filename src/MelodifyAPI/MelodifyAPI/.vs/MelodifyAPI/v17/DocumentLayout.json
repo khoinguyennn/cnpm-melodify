@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\cnpm-melodify\\src\\MelodifyAPI\\MelodifyAPI\\",
+  "WorkspaceRootPath": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\cnpm-melodify\\src\\melodifyapi\\melodifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify\\src\\melodifyapi\\melodifyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify\\src\\melodifyapi\\melodifyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\cnpm-melodify\\src\\melodifyapi\\melodifyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|d:\\melodify\\src\\melodifyapi\\melodifyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{65F22013-543C-4B5A-9DBA-3EAF3DA10F95}|MelodifyAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -18,33 +22,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\cnpm-melodify\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\cnpm-melodify\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:22:38.978Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T09:14:28.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:22:38.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\cnpm-melodify\\src\\MelodifyAPI\\MelodifyAPI\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\cnpm-melodify\\src\\MelodifyAPI\\MelodifyAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T13:22:09.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:22:09.484Z"
             }
           ]
         }

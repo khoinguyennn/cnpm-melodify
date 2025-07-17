@@ -2,7 +2,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 
 # Tạo thư mục và cấp quyền trước khi dùng USER app
 WORKDIR /app
-RUN mkdir -p /app/wwwroot/data/audio \
+RUN mkdir -p /app/wwwroot/data/{audio,artists,img,playlist,users} \
+    && mkdir -p /app/logs \
     && chown -R app:app /app \
     && chmod -R 755 /app
 

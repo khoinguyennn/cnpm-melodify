@@ -77,6 +77,14 @@
       "PackagePath": "staticwebassets\\data\\img\\e22456b2-dbd9-44a2-8b43-6fee18f37ff4.JPG"
     },
     {
+      "Id": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\playlist\\18a2f9c5-c013-4ce2-b0f1-d41b78548b05.png",
+      "PackagePath": "staticwebassets\\data\\playlist\\18a2f9c5-c013-4ce2-b0f1-d41b78548b05.png"
+    },
+    {
+      "Id": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\playlist\\44e6ec8a-2411-42f8-a6ca-73d6e36a5ed7.jpg",
+      "PackagePath": "staticwebassets\\data\\playlist\\44e6ec8a-2411-42f8-a6ca-73d6e36a5ed7.jpg"
+    },
+    {
       "Id": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\32a7e25e-5a0c-4071-9ccd-8ee00f398f74.jpg",
       "PackagePath": "staticwebassets\\data\\users\\32a7e25e-5a0c-4071-9ccd-8ee00f398f74.jpg"
     },
@@ -91,10 +99,6 @@
     {
       "Id": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\data\\users\\a3ea86e2-8ee5-47c9-8f4b-e8cf363d1d6c.jpg",
       "PackagePath": "staticwebassets\\data\\users\\a3ea86e2-8ee5-47c9-8f4b-e8cf363d1d6c.jpg"
-    },
-    {
-      "Id": "D:\\Melodify\\src\\MelodifyAPI\\MelodifyAPI\\wwwroot\\uploads\\playlists\\82b4fc9d-1f54-486c-900a-c32d6272f6d0_clock.jpg",
-      "PackagePath": "staticwebassets\\uploads\\playlists\\82b4fc9d-1f54-486c-900a-c32d6272f6d0_clock.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MelodifyAPI.Microsoft.AspNetCore.StaticWebAssets.props",
