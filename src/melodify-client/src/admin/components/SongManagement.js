@@ -149,7 +149,7 @@ const SongManagement = () => {
   const predefinedGenres = [
     "Pop", "Rock", "Rap", "R&B", "EDM", "Jazz",
     "Blues", "Classical", "Folk", "Country",
-    "Metal", "Indie", "K-Pop", "V-Pop", "Ballad"
+    "Metal", "Indie", "K-Pop", "V-Pop", "Ballad","Disco", "Funk", "Gospel","Latin"
   ];
 
   const columns = [
