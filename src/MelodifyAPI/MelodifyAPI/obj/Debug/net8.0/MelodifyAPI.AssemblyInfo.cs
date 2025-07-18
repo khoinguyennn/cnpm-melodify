@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f3acb6ed8007bede6571b0f5591892adab873ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c48ace5f2b4f03cdd9c7cb6be7c05f39ca93aed")]
 [assembly: System.Reflection.AssemblyProductAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MelodifyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
