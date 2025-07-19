@@ -17,7 +17,7 @@ jobs:
 
     - name: 🧱 🔍 Build and test backend image
       run: |
-        docker build -f src/MelodifyAPI/Dockerfile -t melodify-api-test ./src
+        docker build -f src/MelodifyAPI/Dockerfile -t melodify-api-test .
 
     - name: 🚀 Deploy to VPS via SSH
       uses: appleboy/ssh-action@v1.0.0
