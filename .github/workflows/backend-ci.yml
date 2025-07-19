@@ -7,6 +7,9 @@ on:
 jobs:
   backend:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/MelodifyAPI
 
     steps:
     - name: 📥 Checkout code
@@ -15,9 +18,8 @@ jobs:
     - name: 🐳 Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
 
-    - name: 🧱 🔍 Build and test backend image
-      run: |
-        docker build -f src/MelodifyAPI/Dockerfile -t melodify-api-test .
+    - name: 🧱 Build backend image
+      run: docker build -f Dockerfile -t melodify-api-test ../..
 
     - name: 🚀 Deploy to VPS via SSH
       uses: appleboy/ssh-action@v1.0.0
