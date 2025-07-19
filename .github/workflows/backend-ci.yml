@@ -3,13 +3,15 @@ name: Melodify Backend CI/CD
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   backend:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: src/MelodifyAPI
+        working-directory: src/MelodifyAPI  # Làm việc tại thư mục chứa Dockerfile và docker-compose.yml
 
     steps:
     - name: 📥 Checkout code
@@ -18,8 +20,23 @@ jobs:
     - name: 🐳 Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
 
-    - name: 🧱 Build backend image
-      run: docker build -f Dockerfile -t melodify-api-test ../..
+    - name: 🧱 Build backend & DB containers
+      run: docker compose build
+
+    - name: 🚀 Run backend and database
+      run: docker compose up -d
+
+    - name: ⏳ Wait for API to be ready
+      run: |
+        echo "Waiting for API to be ready..."
+        sleep 20
+        curl --fail http://localhost:7153/swagger/index.html || exit 1
+
+    - name: 📦 Show running containers
+      run: docker ps -a
+
+    - name: 🛑 Stop containers
+      run: docker compose down
 
     - name: 🚀 Deploy to VPS via SSH
       uses: appleboy/ssh-action@v1.0.0
