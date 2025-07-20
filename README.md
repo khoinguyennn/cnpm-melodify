@@ -1,7 +1,7 @@
 
 # Dự án Melodify
 
-Melodify là một nền tảng nghe nhạc nơi người dùng có nghe những bài hát yêu thích và theo dõi nghệ sĩ của những bài háy, chia sẻ và tạo các playlist. Dự án được xây dựng dựa trên kiến trúc client server với client React và server .NET.
+Melodify là một nền tảng nghe nhạc nơi người dùng có nghe những bài hát yêu thích và theo dõi nghệ sĩ của những bài hát, chia sẻ và tạo các playlist. Dự án được xây dựng dựa trên kiến trúc client server với client React và server .NET.
 
 ## Tổng quan hệ thống
 
