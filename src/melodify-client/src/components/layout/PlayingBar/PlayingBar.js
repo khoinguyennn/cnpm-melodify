@@ -5,6 +5,8 @@ import { Play, Pause, SkipBack, SkipForward, Repeat, Shuffle, Volume2, Mic2, Lin
 import { songApi } from '../../../services/songApi'
 import { useAuth } from '../../../contexts/AuthContext'
 import "./PlayingBar.css"
+import AddToPlaylistModal from '../../AddToPlaylistModal'
+import { playlistApi } from '../../../services/playlistApi'
 
 const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: parentIsPlaying }) => {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -15,7 +17,7 @@ const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: pare
   const progressRef = useRef(null)
   const [isFavorite, setIsFavorite] = useState(false)
   const { user } = useAuth()
-
+  const [showPlaylistModal, setShowPlaylistModal] = useState(false);
   useEffect(() => {
     setIsPlaying(parentIsPlaying)
     if (audioRef.current) {
@@ -137,8 +139,20 @@ const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: pare
     const seconds = Math.floor(time % 60)
     return `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`
   }
-
+  const handleAddToPlaylist = (e) => {
+  if (e) e.stopPropagation();
+  if (!user) {
+    alert('Vui lòng đăng nhập để thêm bài hát vào playlist!');
+    return;
+  }
+  if (!song || !song.songID) {
+    alert('Không có bài hát nào được chọn!');
+    return;
+  }
+  setShowPlaylistModal(true);
+};
   return (
+    <>
     <div className={`playing-bar ${isSidebarOpen ? 'with-sidebar' : ''}`}>
       <audio ref={audioRef} src={`${process.env.REACT_APP_BACKEND_URL}${song.url}`} />
 
@@ -194,7 +208,8 @@ const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: pare
             className={isFavorite ? "text-danger" : ""}
           />
         </button>
-        <button className="control-btn">
+        <button className="control-btn" title="Add to playlist"
+            onClick={handleAddToPlaylist}>
           <Link size={18} />
         </button>
         <button className="control-btn">
@@ -213,6 +228,16 @@ const PlayingBar = ({ song, isSidebarOpen, onPlayingStateChange, isPlaying: pare
         </div>
       </div>
     </div>
+    
+    <AddToPlaylistModal
+      isOpen={showPlaylistModal}
+      onClose={() => setShowPlaylistModal(false)}
+      songId={song.songID}
+      onAddSuccess={() => {
+        alert('Đã thêm bài hát vào playlist thành công!');
+      }}
+    />
+    </>
   )
 }
 

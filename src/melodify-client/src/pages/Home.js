@@ -186,7 +186,12 @@ const Home = () => {
       console.error('Error fetching songs:', error);
     }
   };
-
+  const handlePlayRandomSong = async () => {
+    if (newSongs.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * newSongs.length);
+    const randomSong = newSongs[randomIndex];
+    await handlePlaySong(randomSong);
+  };
   const fetchArtists = async () => {
     try {
       const data = await artistApi.getAll();
@@ -289,7 +294,7 @@ const Home = () => {
         <div className="position-absolute bottom-0 start-0 p-5 hero-content">
           <h1 className="hero-title mb-3">Kết nối cảm xúc qua âm nhạc</h1>
           <p className="hero-subtitle mb-4">Melodify</p>
-          <button className="btn btn-primary hero-cta">
+          <button className="btn btn-primary hero-cta" onClick={handlePlayRandomSong}>
             <Play size={20} className="me-2" />
             Nghe ngay
           </button>
