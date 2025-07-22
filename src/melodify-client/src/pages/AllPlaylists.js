@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import { Play, PlaySquare } from 'lucide-react';
+import { PlaySquare } from 'lucide-react';
 import { playlistApi } from '../services/playlistApi';
 import MainLayout from '../components/layout/MainLayout/MainLayout';
 import { useNavigate } from 'react-router-dom';
 import '../pages/Home.css';
+import { Plus} from "lucide-react";
 
 const AllPlaylists = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [playlists, setPlaylists] = useState([]);
   const navigate = useNavigate();
-
   useEffect(() => {
     document.title = "Playlists - Melodify";
     fetchPlaylists();
@@ -27,6 +27,9 @@ const AllPlaylists = () => {
   const handlePlaylistClick = (playlistId) => {
     navigate(`/playlist/${playlistId}`);
   };
+  const handleCreatePlaylist = () => {
+    navigate('/playlist');
+  };
 
   return (
     <MainLayout
@@ -36,6 +39,14 @@ const AllPlaylists = () => {
       <div className="px-4 mb-4">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h2 className="fs-4 fw-bold">Tất cả Playlist</h2>
+
+          <button
+            className="btn btn-primary d-flex align-items-center gap-2"
+           onClick={handleCreatePlaylist}
+          >
+            <Plus size={20} />
+            Playlist của tôi
+          </button>
         </div>
 
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-3">

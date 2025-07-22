@@ -1196,7 +1196,6 @@ D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.bu
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\Melodify.C0A35C8C.Up2Date
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\MelodifyAPI.dll
 D:\cnpm-melodify\src\MelodifyAPI\MelodifyAPI\obj\Debug\net8.0\refint\MelodifyAPI.dll
