@@ -54,12 +54,41 @@ Phía server được xây dựng dựa trên .NET. Các tệp quan trọng bao 
 
 Dự án sử dụng Docker để đóng gói và triển khai. Cấu hình Docker có thể được tìm thấy trong file Dockerfile.
 
+### Tự động deploy backend lên VPS
+1. **Thêm GitHub Secrets**:
+   - `VPS_HOST`: IP của VPS
+   - `VPS_USERNAME`: SSH username  
+   - `VPS_SSH_KEY`: Private SSH key
+
+2. **Push lên main** để trigger auto deploy
+
+3. **Backend đã deploy**
+http://222.255.117.209:7153/swagger/index.html
+
+Cấu hình chi tiết trong:
+- [Backend CI/CD](.github/workflows/backend-ci.yml)
+
+## Bản thiết kế Figma design
+
+https://www.figma.com/design/FFgHYC8gSMw1IKTB4Owv1y/Figma---X%C3%A2y-D%E1%BB%B1ng-Website-Nghe-Nh%E1%BA%A1c-Melodify?node-id=0-1&t=Aj9mvY673TgUJRwC-1
+
 ## Cách chạy dự án
 
 Để chạy dự án, bạn cần cài đặt Docker và Docker Compose. Sau đó, chạy lệnh sau:
+
+Frontend:
+```
+cd src/melodify-client
+npm install
+npm start
+```
+Frontend sẽ được chạy tại   
+>`http://localhost:3000`.
+
+Backend:
 ```
 cd src/MelodifyAPI
 docker-compose  up --build
 ```
-Dự án sẽ được chạy tại   
+Backend sẽ được chạy tại   
 >`http://localhost:7153`.
